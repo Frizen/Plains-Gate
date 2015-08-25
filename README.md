@@ -2,9 +2,9 @@
 
 The title comes from the famous Game/Animation Steins;Gate.
 
-As the description says, this is a flat UI project. Normally I just change the product UI into flat design, especially the product that I frequently use. And that's it.
+As the description says, this is a flat UI project. Normally I just change the product UI into flat design, especially for the product that I frequently use. And that's it.
 
-The first project is Zhihu(www.zhihu.com) . The UI part of the project is almost finished but the interaction part still get some trouble. I know that it will not be that easy, like just write a CSS and all clear. So, the project is pause, and you can use this CSS in https://userstyles.org/
+The first project is Zhihu(www.zhihu.com) . The UI part of the project is almost finished but the interaction part still get some trouble. I know that it will not be that easy, like just write a CSS and all clear. So, the project is pause, and you still can use this CSS in https://userstyles.org/
 
 The second project is bilibili(www.bilibili.tv) . It will be finished in Sep. 
 
