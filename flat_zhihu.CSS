@@ -22,11 +22,20 @@ background-size: 109px 76px;
   	background-size: 256px 30px;
 }}
 
-.z-ico-community {
-  background-position: -19px -60px;
-  width: 14px;
-  height: 13px;
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), not all{
+	.z-ico-community {
+  		background-position: -19px -60px;
+		width: 14px;
+		height: 13px;
 }
+
+.z-ico-container:hover .z-ico-community, .z-ico-community:hover {
+    background-position: -19px -60px;
+    width: 14px;
+    height: 13px;
+}}
 
     
 html body, html input, html textarea, html select, html button {
@@ -373,11 +382,26 @@ a.toggle-expand {
 /*==================侧边栏====================*/
 /*===========================================*/
 
-
+.zu-top-search-form .zu-top-search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    background: #2C93EE;
+    background-color: #2C93EE; 
+    background-image: none;
+    border: 1px solid #2C93EE;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    outline: 0;
+    cursor: pointer;
+}
 
 .zm-side-nav-link {
 	margin-bottom: 3px;
-	padding: 0 0 0 10px;
 	display: block;
 	height: 31px;
 	line-height: 31px;
@@ -487,7 +511,7 @@ a.shameimaru-link:hover {
 
 .zu-top-add-question {
 	background: #2c93ee;
-	margin: 0 0 0 10px;
+	margin: 7px 0 0 0;
 	background-color: #2c93ee;
 	background-image:none;
 	border:none;
