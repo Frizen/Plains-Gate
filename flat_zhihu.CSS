@@ -302,6 +302,10 @@ html.no-touch .zm-comment-box .load-more:hover {
 	display: none;
 }
 
+.video-box-thumbnail {
+	display: none;
+}
+
 a.toggle-expand {
 	transition: 0s;
 }
