@@ -6,7 +6,7 @@ As the description says, this is a flat UI project. Normally I just change the p
 
 The first project is Zhihu(www.zhihu.com) . The UI part of the project is almost finished but the interaction part still get some trouble. I know that it will not be that easy, like just write a CSS and all clear. So, the project is pause, and you still can use this CSS in https://userstyles.org/
 
-The second project is bilibili(www.bilibili.tv) . It will be finished in Sep. 
+The second project is bilibili(www.bilibili.tv) which is still in preparation.
 
 
 ----
