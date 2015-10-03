@@ -4,14 +4,14 @@ The title comes from the famous Game/Animation Steins;Gate.
 
 As the description says, this is a flat UI project. Normally I just change the product UI into flat design, especially for the product that I frequently use. And that's it.
 
-The first project is Zhihu(www.zhihu.com) . The UI part of the project is almost finished but the interaction part still get some trouble. I know that it will not be that easy, like just write a CSS and all clear. So, the project is pause, and you still can use this CSS in https://userstyles.org/
+The first project is Zhihu(www.zhihu.com) . The UI part of the project is almost done,however the interaction part really got some trouble. The interaction of a website is more complicated than the UI. It can't be that easy like just write a CSS and all the things' clear. So, the left part of the project is pause, but you still can use this CSS for the UI modification. You can use this CSS file on Userstyles: https://userstyles.org/
 
 The second project is bilibili(www.bilibili.tv) which is still in preparation.
 
 
 ----
 
-项目名称 Neta 自著名游戏/改编动画《命运石之门》
+项目名 Neta 自著名游戏/改编动画《命运石之门》
 
 取了一个看起来很厉害的名字，但实际上做的东西却异常地简单，只是将一些 UI 非常不符合我个人审美但又每天都不得不打开看看刷刷的互联网产品，给他们换个皮而已。扁平化的设计会是这个项目的主流，所以如果对扁平化设计不感冒的话，那么可以退散了。
 
