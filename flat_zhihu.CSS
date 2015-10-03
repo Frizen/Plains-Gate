@@ -1,389 +1,370 @@
 /*===========================================*/
-/*===================全局=====================*/
+/*=================== 全局 =====================*/
 /*===========================================*/
 
-
-    
-@media only screen and (-webkit-min-device-pixel-ratio: 2), not all{
-.icon, i[class^=z-icon-], .modal-dialog-title-close, .goog-option-selected .goog-menuitem-checkbox, .zg-content-img-icon, .zg-content-video-icon, .tr-icon, .tr-inline-icon, .zg-icon, .icon-external, .feed-item .ignore, .side-topic-item .up, .side-topic-item .delete, .zu-edit-button-icon, .zg-blue-edit, .zm-add-question-detail-icon, .zh-hovercard-arrow, .zu-top-live-icon, .zm-profile-details-items .zm-profile-tag-btn, .zm-item-top-btn, .zm-profile-icon, .zm-profile-header-icon, .zm-profile-empty-icon, .zu-global-notify-icon, .zu-global-notify-close, .zm-modal-dialog-guide-title-msg, .zm-modal-dialog-guide-title-dropdown, .zm-noti7-popup-tab-item .icon, .zu-noti7-popup .zu-top-live-icon, .icon-info, .icon-green-check, .icon-big-arrow-left, .icon-big-arrow-right, .icon-weibo, .icon-qzone, .icon-weibo-corner, .icon-big-white-sina, .icon-big-white-qq, .icon-big-white-mail, .icon-sign-arrow {
-background-image: url(http://frizen.qiniudn.com/sprites-1.1.2@2x.png);
-background-size: 308px 250px;
-}}
-
-@media screen and (-webkit-min-device-pixel-ratio: 2), not all{
-.z-ico-wechat-right-panel, .z-ico-show-password, .z-ico-hide-password, .z-ico-weibo, .z-ico-wechat-unlogin-page, .z-ico-weibo-share, .z-ico-wechat-share, .z-ico-green-check, .z-ico-gray-check, .z-ico-daily-share, .z-ico-qq, .z-ico-wechat, .z-ico-textedit, .z-ico-shameimaru-close, .z-ico-left, .z-ico-close, .z-ico-community:hover, .z-ico-community {
-background-image: url(http://www.zhihu.com/static/img/compiled/icons@2x_4ecd3000b1.png);
-background-size: 109px 76px;
-}} 
-  
-@media only screen and (-webkit-min-device-pixel-ratio: 2), not all{
-.zg-icon-rare {
-	background-image: url(http://www.zhihu.com/static/img/sprites-rare-0.1.png);
-  	background-size: 256px 30px;
-}}
-
-
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), not all{
-	.z-ico-community {
-  		background-position: -19px -60px;
-		width: 14px;
-		height: 13px;
+@media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
+    .icon, i[class^=z-icon-], .modal-dialog-title-close, .goog-option-selected .goog-menuitem-checkbox, .zg-content-img-icon, .zg-content-video-icon, .tr-icon, .tr-inline-icon, .zg-icon, .icon-external, .feed-item .ignore, .side-topic-item .up, .side-topic-item .delete, .zu-edit-button-icon, .zg-blue-edit, .zm-add-question-detail-icon, .zh-hovercard-arrow, .zu-top-live-icon, .zm-profile-details-items .zm-profile-tag-btn, .zm-item-top-btn, .zm-profile-icon, .zm-profile-header-icon, .zm-profile-empty-icon, .zu-global-notify-icon, .zu-global-notify-close, .zm-modal-dialog-guide-title-msg, .zm-modal-dialog-guide-title-dropdown, .zm-noti7-popup-tab-item .icon, .zu-noti7-popup .zu-top-live-icon, .icon-info, .icon-green-check, .icon-big-arrow-left, .icon-big-arrow-right, .icon-weibo, .icon-qzone, .icon-weibo-corner, .icon-big-white-sina, .icon-big-white-qq, .icon-big-white-mail, .icon-sign-arrow {
+        background-image: url(http://frizen.qiniudn.com/sprites-1.1.2@2x.png);
+        background-size: 308px 250px;
+    }
 }
 
-.z-ico-container:hover .z-ico-community, .z-ico-community:hover {
-    background-position: -19px -60px;
-    width: 14px;
-    height: 13px;
-}}
+@media screen and (-webkit-min-device-pixel-ratio: 2), not all {
+    .z-ico-wechat-right-panel, .z-ico-show-password, .z-ico-hide-password, .z-ico-weibo, .z-ico-wechat-unlogin-page, .z-ico-weibo-share, .z-ico-wechat-share, .z-ico-green-check, .z-ico-gray-check, .z-ico-daily-share, .z-ico-qq, .z-ico-wechat, .z-ico-textedit, .z-ico-shameimaru-close, .z-ico-left, .z-ico-close, .z-ico-community:hover, .z-ico-community {
+        background-image: url(http://www.zhihu.com/static/img/compiled/icons@2x_4ecd3000b1.png);
+        background-size: 109px 76px;
+    }
+}
 
-    
+@media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
+    .zg-icon-rare {
+        background-image: url(http://www.zhihu.com/static/img/sprites-rare-0.1.png);
+        background-size: 256px 30px;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
+    .z-ico-community {
+        background-position: -19px -60px;
+        width: 14px;
+        height: 13px;
+    }
+    .z-ico-container:hover .z-ico-community, .z-ico-community:hover {
+        background-position: -19px -60px;
+        width: 14px;
+        height: 13px;
+    }
+}
+
 html body, html input, html textarea, html select, html button {
-	font-family: 'Helvetica Neue',Helvetica,Arial,"Hiragino Sans GB", "Microsoft YaHei",
-             "WenQuanYi Micro Hei", sans-serif;
-   	letter-spacing: 0.02em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    letter-spacing: 0.02em;
 }
 
 body, input, textarea, select, button {
-	line-height: 1.9;
-	color: #444;
+    line-height: 1.9;
+    color: #444;
 }
-     
-  
+
 a {
-	color: #259;
-  	text-decoration:none!important;
-	-webkit-transition: all .2s ease-in-out;
-	-moz-transition: all .2s ease-in-out;
-	-ms-transition: all .2s ease-in-out;
-	-o-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
-	text-decoration: none;
+    color: #259;
+    text-decoration: none!important;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 i, em {
-	font-style: normal!important;
+    font-style: normal!important;
 }
-
-
-
 /*===========================================*/
-/*==================首页动态==================*/
+/*================== 首页动态 ==================*/
 /*===========================================*/
- 
-    
 
-    
 .feed-item {
-	padding: 18px 0 13px 0;
+    padding: 18px 0 13px 0;
 }
-    
+
 #zh-home-list-title {
-	color: #999;
+    color: #999;
 }
 
 .zm-noti-cleaner-setting {
-	opacity: 0;
-	position: relative;
-	top: 2px;
-    transition:none;
+    opacity: 0;
+    position: relative;
+    top: 2px;
+    transition: none;
 }
-  
+
 .zg-section:hover .zm-noti-cleaner-setting {
-	opacity: 1;
+    opacity: 1;
 }
 
 .feed-main {
-	margin: -2px 0 2px 48px;
+    margin: -2px 0 2px 48px;
 }
 
 .zu-main-feed-con {
-	border-top: 1px solid #ddd;
-  	border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
 a.zu-main-feed-fresh-button {
-	border: 1px solid #f9f9f9;
-	background-color: #f9f9f9;
-	text-shadow: none;
-	transition: all 0.2s ease-in-out;
-	color: #999;
+    border: 1px solid #f9f9f9;
+    background-color: #f9f9f9;
+    text-shadow: none;
+    transition: all 0.2s ease-in-out;
+    color: #999;
 }
 
 .zm-editable-content .answer-date-link-wrap {
-	margin-top: 5px;
+    margin-top: 5px;
 }
 
 a.zu-main-feed-fresh-button:hover, a.zu-main-feed-fresh-button:active {
-	background: #E4EAFF;
-	border: 1px solid #E4EAFF;
-	color: #698ebf;
+    background: #E4EAFF;
+    border: 1px solid #E4EAFF;
+    color: #698ebf;
 }
 
 .zg-btn-white.zu-button-more:hover {
-	background-color: #E4EAFF;
-	color: #698ebf!important;
+    background-color: #E4EAFF;
+    color: #698ebf!important;
 }
-    
+
 .zg-btn-white.zu-button-more {
-	background-color: #F9F9F9;
-	transition: all 0.2s ease-in-out;
+    background-color: #F9F9F9;
+    transition: all 0.2s ease-in-out;
 }
 
 .zg-btn-white.zu-button-more:active {
-	background: #daedf5;
-}
-    
-.feed-item+.feed-item, .feed-separator+.feed-item {
-	border-top: 1px solid #ddd;
-	padding: 18px 0 13px 0;
+    background: #daedf5;
 }
 
+.feed-item+.feed-item, .feed-separator+.feed-item {
+    border-top: 1px solid #ddd;
+    padding: 18px 0 13px 0;
+}
 
 .feed-item .author-info, .feed-item .author-info a {
-	margin-bottom: 6px;
-  	color:#444;
+    margin-bottom: 6px;
+    color: #444;
 }
 
 .feed-item .zm-item-vote-info, .feed-item .zm-item-answer-author-info {
-	margin: 2px 0 6px 0;
+    margin: 2px 0 6px 0;
 }
-    
+
 .feed-item .entry-body, .feed-item .zm-item-answer {
-	margin-top: 6px;
+    margin-top: 6px;
 }
 
 .zm-comment-box {
-	box-shadow:none;
-  	border:none;
-	border-top: 1px solid #ddd;
-	border-radius: 0px;
+    box-shadow: none;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-radius: 0px;
 }
 
 .zm-item-comment+.zm-item-comment {
-	border-top: dotted 1px #ddd;
+    border-top: dotted 1px #ddd;
 }
 
 .zm-item-comment .zm-comment-hd, .zm-item-comment .zm-comment-ft {
-	margin: 4px 0 4px 0;
+    margin: 4px 0 4px 0;
 }
 
 .zm-item-comment {
-	border-bottom: dotted 1px #ddd;
+    border-bottom: dotted 1px #ddd;
 }
 
 .zm-item-comment+.zm-item-comment {
-  	border-bottom: dotted 1px #ddd;
-	border-top: solid 0px #eee;
+    border-bottom: dotted 1px #ddd;
+    border-top: solid 0px #eee;
 }
 
-
 .zm-comment-box.empty.cannot-comment .zm-comment-box-ft, .zm-comment-box .zm-comment-box-ft {
-	background: none;
-	border-radius: 0px;
-	border-top: 0px solid #ddd;
-	border-bottom: 1px solid #ddd;
+    background: none;
+    border-radius: 0px;
+    border-top: 0px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
 .zm-comment-form .zm-comment-textarea, .zm-comment-form .zm-comment-editable {
-	border: 1px solid #ddddFF;
-	border-radius: 3px;
-	box-shadow: none;
-	background-color: #F9F9FF;
-  	transition: all .2s ease-in-out;
+    border: 1px solid #ddddFF;
+    border-radius: 3px;
+    box-shadow: none;
+    background-color: #F9F9FF;
+    transition: all .2s ease-in-out;
 }
 
 .zm-comment-form .zm-comment-editable:focus {
-	border: 1px solid #ddddFF;
-	background-color: #FCFCFF;
+    border: 1px solid #ddddFF;
+    background-color: #FCFCFF;
 }
 
 .zg-btn-blue {
-	background-color: #ddddFF;
-	background-image: none;
-	text-shadow:none;
-	border: 0px;
-	color: #fff!important;
-	box-shadow: none;
+    background-color: #ddddFF;
+    background-image: none;
+    text-shadow: none;
+    border: 0px;
+    color: #fff!important;
+    box-shadow: none;
     border-radius: 3px;
-  	font-weight: 400;
+    font-weight: 400;
 }
-  
+
 .zm-command-cancel {
-  	font-size:13px;
-	margin: 0px;
-	border: 0px solid #6EBBFF;
-	padding: 8px 11px 6px 11px;
-	border-radius: 3px 0px 0px 3px;
-	line-height: 1.7;
- 	color: #999
+    font-size: 13px;
+    margin: 0px;
+    border: 0px solid #6EBBFF;
+    padding: 8px 11px 6px 11px;
+    border-radius: 3px 0px 0px 3px;
+    line-height: 1.7;
+    color: #999
 }
 
 .zm-command-cancel:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .feed-item .ignore:hover {
-	background-position: -261px -62px;
+    background-position: -261px -62px;
 }
 
 .zm-comment-box .load-more {
-  	border: 0px;
-	border-bottom: 1px dotted #ddd;
-	color: #999;
-	box-shadow: none;
-	text-shadow: none;
-	margin: 0 12px;
+    border: 0px;
+    border-bottom: 1px dotted #ddd;
+    color: #999;
+    box-shadow: none;
+    text-shadow: none;
+    margin: 0 12px;
 }
 
 html.no-touch .zm-comment-box .load-more:hover {
-	background: #fcfcfc;
-	text-decoration: none;
+    background: #fcfcfc;
+    text-decoration: none;
 }
-
 
 .feed-item .time {
-  	opacity: 0;
-  	margin-top: -2px;
-  	transition: 0s;
-
+    opacity: 0;
+    margin-top: -2px;
+    transition: 0s;
 }
 
-.feed-item:hover .time{
-	opacity: 1;
+.feed-item:hover .time {
+    opacity: 1;
 }
 
 .feed-item .avatar img {
-  	opacity: 0.5;
-	border-radius: 3px;
-  	transition: 0s;
+    opacity: 0.5;
+    border-radius: 3px;
+    transition: 0s;
 }
 
-.feed-item:hover .avatar img{
+.feed-item:hover .avatar img {
     opacity: 1;
 }
 
 .zm-item-vote-count {
-	opacity: 0.65;
+    opacity: 0.65;
 }
 
 .feed-item:hover .zm-item-vote-count {
-	opacity: 1;
-	transition: 0s;
+    opacity: 1;
+    transition: 0s;
 }
 
 .feed-item .ignore {
-  	visibility: visible!important;
-  	opacity: 0;
-
+    visibility: visible!important;
+    opacity: 0;
 }
 
 .feed-item:hover .ignore {
     opacity: 1;
-}   
-    
+}
+
 .zu-autohide {
-	transition: 0s;
+    transition: 0s;
 }
 
 .feed-item .entry-body, .feed-item .zm-item-answer {
-	margin-top: 2px;
+    margin-top: 2px;
 }
 
 .feed-item.combine.first-combine .content, .feed-item.combine.first-combine .entry-body {
-	margin-top: 0px;
+    margin-top: 0px;
 }
 
 .zh-summary .inline-img {
-	display: none;
+    display: none;
 }
 
 .video-box.thumbonly {
-	display: none;
+    display: none;
 }
 
 .video-box-thumbnail {
-	display: none;
+    display: none;
 }
 
 a.toggle-expand {
-	transition: 0s;
+    transition: 0s;
 }
 
 .zg-btn-blue:active {
-	background: #99F;
-	background-color: #99F;
-	background-image: none;
-	box-shadow: none;
+    background: #99F;
+    background-color: #99F;
+    background-image: none;
+    box-shadow: none;
 }
 
-.zm-noti7-frame-border.top::after{
+.zm-noti7-frame-border.top::after {
     box-shadow: none;
-}  
+}
 
 .zm-noti7-frame-border.bottom::after {
-	box-shadow: none;
+    box-shadow: none;
 }
 
 .zm-comment-box .load-more+.zm-item-comment {
-	border-top: 0px solid #eee;
+    border-top: 0px solid #eee;
 }
 
 .toggle-expand.btn-toggle-question-detail {
-	left: 0;
+    left: 0;
 }
 
 .feed-item .roundtable .left img, .feed-item .column .left img {
-	display: none;
+    display: none;
 }
 
 .feed-item .roundtable .content, .feed-item .column .content {
-	padding: 0 0 10px;
-	color: #333;
+    padding: 0 0 10px;
+    color: #333;
 }
 
 .feed-item .roundtable .info, .feed-item .column .info {
-	padding: 10px 0 0;
+    padding: 10px 0 0;
 }
 
 .feed-item .avatar {
-	margin: 3px 0 0;
+    margin: 3px 0 0;
 }
 
 .source .zg-bull {
-  display: none;
+    display: none;
 }
 
-.feed-item:hover .source .zg-bull{
-	display: inline!important;
+.feed-item:hover .source .zg-bull {
+    display: inline!important;
 }
 
 .zm-meta-panel>a, .zm-meta-panel>span {
-  color: #999;
-  vertical-align: inherit;
+    color: #999;
+    vertical-align: inherit;
 }
-
-/* 首页feed底部操作
+/* 首页 feed 底部操作
 .zm-meta-panel .zg-bull {
-	display: none;
+display: none;
 }
 
 .feed-item:hover .zm-meta-panel .zg-bull{
-	display: inline!important;
+display: inline!important;
 }
 
 .meta-item.copyright {
-  display: none;
+display: none;
 }
 
 .feed-item:hover .meta-item.copyright{
-	display: inline!important;
+display: inline!important;
 }
 */
-
-
 /*===========================================*/
-/*==================侧边栏====================*/
+/*================== 侧边栏 ====================*/
 /*===========================================*/
 
 .zu-top-search-form .zu-top-search-button {
@@ -393,7 +374,7 @@ a.toggle-expand {
     width: 40px;
     height: 100%;
     background: #2C93EE;
-    background-color: #2C93EE; 
+    background-color: #2C93EE;
     background-image: none;
     border: 1px solid #2C93EE;
     box-shadow: none;
@@ -405,754 +386,688 @@ a.toggle-expand {
 }
 
 .zm-side-nav-link {
-	margin-bottom: 3px;
-	display: block;
-	height: 31px;
-	line-height: 31px;
-	color: #666;
-  	border-radius: 3px;
-	background-color: transparent;
+    margin-bottom: 3px;
+    display: block;
+    height: 31px;
+    line-height: 31px;
+    color: #666;
+    border-radius: 3px;
+    background-color: transparent;
 }
-  
+
 .zm-side-nav-link.active, html.no-touch .zm-side-nav-roundtable .follow-link:hover+.zm-side-nav-link, html.no-touch .zm-side-nav-link:hover {
-	color: #259;
-	border-left: 3px solid #ddddff;
-	margin-left: 10px;
-	background-color: #E4EAFF;
-	border-radius: 3px;
-	text-decoration: none;
+    color: #259;
+    border-left: 3px solid #ddddff;
+    margin-left: 10px;
+    background-color: #E4EAFF;
+    border-radius: 3px;
+    text-decoration: none;
 }
-  
+
 .zu-main-sidebar h3, .zm-side-section h3, .zu-main-sidebar h2, .zm-side-section h2 {
-	color: #999;
+    color: #999;
 }
 
 .zm-side-section:hover a.zg-link-litblue {
-	visibility: visible;
+    visibility: visible;
 }
 
 a.zg-link-litblue.zg-right {
-	visibility: hidden;
+    visibility: hidden;
 }
 
 .zm-side-section+.zm-side-section>.zm-side-section-inner {
-	padding: 0px;
-	border-top: 0px solid #eee;
+    padding: 0px;
+    border-top: 0px solid #eee;
 }
 
 .zm-side-nav-group+.zm-side-nav-group {
-	border-top: 1px solid #ddd;
-  	padding-top: 15px;
-
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
 }
 
 .zm-side-nav-group {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .zm-side-list-content {
-	border-top: 1px solid #ddd;
-}  
-  
+    border-top: 1px solid #ddd;
+}
+
 a.shameimaru-link {
-	opacity: 0.6;
+    opacity: 0.6;
 }
 
 a.shameimaru-link:hover {
-	opacity: 1;
+    opacity: 1;
 }
-
-
-
-
-
-
 /*===========================================*/
-/*===================顶部栏===================*/
+/*=================== 顶部栏 ===================*/
 /*===========================================*/
-
-
-
-
-
-
 
 .zu-top {
-	position: fixed;
-	background: #137ad5;
-	background-color: #137ad5;
-  	background-image:none;
-	border-bottom:none;
-	box-shadow:none;
-	height: 46px;
+    position: fixed;
+    background: #137ad5;
+    background-color: #137ad5;
+    background-image: none;
+    border-bottom: none;
+    box-shadow: none;
+    height: 46px;
 }
- 
-
-
-
-
-
 /*===========================================*/
-/*===================搜索框===================*/
+/*=================== 搜索框 ===================*/
 /*===========================================*/
-
-
 
 .zu-top-search-input {
-	border: none;
-	box-shadow: none;
-	background-color: #F1F1FF;
-	color: #999;
+    border: none;
+    box-shadow: none;
+    background-color: #F1F1FF;
+    color: #999;
 }
-
 
 .zu-top-search-input:focus {
-	background-color: #FFF;
-	box-shadow:none;
-	border:none;
+    background-color: #FFF;
+    box-shadow: none;
+    border: none;
 }
 
-
 .zu-top-add-question {
-	background: #2c93ee;
-	margin: 7px 0 0 0;
-	background-color: #2c93ee;
-	background-image:none;
-	border:none;
+    background: #2c93ee;
+    margin: 7px 0 0 0;
+    background-color: #2c93ee;
+    background-image: none;
+    border: none;
     height: 31px;
-	box-shadow:none;
-	text-shadow:none;
+    box-shadow: none;
+    text-shadow: none;
 }
 
 .zu-top-add-question:active {
-	background-color:#1069bd ;
-  	background:#1069bd; 
-	border: none;
-	box-shadow:none;
+    background-color: #1069bd;
+    background: #1069bd;
+    border: none;
+    box-shadow: none;
 }
-
-
-
 /*===========================================*/
-/*==================导航菜单==================*/
+/*================== 导航菜单 ==================*/
 /*===========================================*/
 
 .top-nav-dropdown {
-	display: block;
-  	top: -160px!important;
-	transition: all 0.2s;
-	z-index: -1;
+    display: block;
+    top: -160px!important;
+    transition: all 0.2s;
+    z-index: -1;
 }
 
 .open .top-nav-dropdown, html.no-touch .top-nav-profile:hover .top-nav-dropdown {
-	top: 46px!important;
+    top: 46px!important;
 }
 
 .zu-top-nav-ul {
-	margin: 0 0 0 19px;
+    margin: 0 0 0 19px;
 }
 
 .zu-top-nav-li {
-	margin: 0 1px;
+    margin: 0 1px;
 }
-  
 
 .top-nav-dropdown .zg-icon {
-	margin: 0 8px 0 18px;
+    margin: 0 8px 0 18px;
 }
 
 .zu-top-nav-link {
-	width: 54px;
-	height: 46px;
-	line-height: 45px;
-	text-align: center;
-	display: block;
-	color: #f2f4f5;
-	text-shadow:none;
-	font-size: 14px;
+    width: 54px;
+    height: 46px;
+    line-height: 45px;
+    text-align: center;
+    display: block;
+    color: #f2f4f5;
+    text-shadow: none;
+    font-size: 14px;
 }
 
 .zu-top-nav-link:hover {
-	color: #FFF;
-	background-color: #1069BD;
+    color: #FFF;
+    background-color: #1069BD;
 }
 
 .zu-top-nav-li.current {
-	background-color: #1069bd;
-	background-image:none;
-	box-shadow:none;
+    background-color: #1069bd;
+    background-image: none;
+    box-shadow: none;
 }
-   
 
 .zu-top-nav-userinfo .zu-top-nav-pm-count {
-	left: 34px;
+    left: 34px;
 }
 
 .zu-top-nav-userinfo.selected, html.no-touch .top-nav-profile:hover .zu-top-nav-userinfo {
-	height: 46px!important;
-	background-color: #1069bd;
-	background-image:none;
-	box-shadow:none;
+    height: 46px!important;
+    background-color: #1069bd;
+    background-image: none;
+    box-shadow: none;
 }
 
 .zg-noti-number {
-	background: #CA3939;
-	border: 1px solid #fff;
-	box-shadow: none;
-	font-weight: 400;
+    background: #CA3939;
+    border: 1px solid #fff;
+    box-shadow: none;
+    font-weight: 400;
 }
 
 .top-nav-dropdown li a {
-	border-top:none;
-	box-shadow:none;
+    border-top: none;
+    box-shadow: none;
 }
 
 .top-nav-profile {
-	min-width: 130px;
+    min-width: 130px;
 }
-  
+
 .top-nav-profile a {
-	background-color: #1069bd;
-	width: 130px;
-	text-shadow:none;
+    background-color: #1069bd;
+    width: 130px;
+    text-shadow: none;
 }
 
 .top-nav-profile .top-nav-dropdown a {
-	width: 130px;
+    width: 130px;
 }
 
 .zu-top-nav-userinfo .avatar {
-	left: 18px;
-	border:none;
-	box-shadow:none;
-  	border-radius: 2px;
-  	background-image: url(http://pic2.zhimg.com/132b483dc_l.jpg)!important;
-	background-size: 25px 25px;
-  	position: absolute;
-  	z-index:3;
+    left: 18px;
+    border: none;
+    box-shadow: none;
+    border-radius: 2px;
+    background-image: url(http://pic2.zhimg.com/132b483dc_l.jpg)!important;
+    background-size: 25px 25px;
+    position: absolute;
+    z-index: 3;
 }
 
 .top-nav-profile .zu-top-nav-userinfo {
-	text-indent: 52px;
-  	transition: none;
-	background: #137AD5;
+    text-indent: 52px;
+    transition: none;
+    background: #137AD5;
 }
 
 html.no-touch .top-nav-dropdown a:hover {
-	width:130px;
-	background-color: #1b78d0;
+    width: 130px;
+    background-color: #1b78d0;
 }
-
-
-
 /*===========================================*/
-/*==================个人页面==================*/
+/*================== 个人页面 ==================*/
 /*===========================================*/
-
-
 
 .zm-profile-header {
-	border:none;
-	box-shadow:none;
-	border-radius: 0 0 0 0;
-  	color: #666;
+    border: none;
+    box-shadow: none;
+    border-radius: 0 0 0 0;
+    color: #666;
 }
 
 .zg-avatar-big {
-	width: 118px;
-	height: 118px;
-	border: none;
-	border-radius: 8px;
+    width: 118px;
+    height: 118px;
+    border: none;
+    border-radius: 8px;
 }
 
 .zm-profile-header-avatar-container .zm-entry-head-avatar-edit-button {
-	background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .zm-entry-head-avatar-edit-button {
-	bottom: -18px;
-	width: 118px;
- 	border-radius: 0 0 7px 7px;
-
+    bottom: -18px;
+    width: 118px;
+    border-radius: 0 0 7px 7px;
 }
 
 .zm-profile-header .zm-profile-header-user-describe .item .topic-link {
-	color: #666;
+    color: #666;
 }
 
 .zm-profile-header-main .name, .zm-profile-header-main .name:visited {
-	color: #444;
+    color: #444;
 }
 
 .zm-profile-header-avatar-container {
-	float: left;
-	top: -38px;
-	box-shadow: none;
-	border-radius: 0px;
+    float: left;
+    top: -38px;
+    box-shadow: none;
+    border-radius: 0px;
 }
 
 .zm-profile-header .zm-profile-header-user-detail {
-	visibility: hidden;
+    visibility: hidden;
 }
 
 .ellipsis {
-	position: relative;
-	left: 141px;
-  	max-width: 380px;
+    position: relative;
+    left: 141px;
+    max-width: 380px;
 }
 
 h3.ellipsis {
-	left: 0px;
+    left: 0px;
 }
 
 .zm-profile-header-main .name, .zm-profile-header-main .name:visited {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 .zm-profile-header .items {
-  	position: relative;
-    left:24px;
+    position: relative;
+    left: 24px;
     min-height: 78px;
 }
 
 .zm-profile-header-description {
-	border-top:none;
-	margin: 3px -18px 0 -115px;
+    border-top: none;
+    margin: 3px -18px 0 -115px;
 }
 
 .zm-profile-header-operation {
-	padding: 0 18px;
-	margin: 0 0 16px 0;
-	border-top: none;
+    padding: 0 18px;
+    margin: 0 0 16px 0;
+    border-top: none;
 }
 
 #zh-question-side-header-wrap .follow-button {
-	min-width: 78px;
+    min-width: 78px;
 }
 
 .zg-btn-green, .zg-btn-follow {
-	background-color: #E4EAFF;
-	background-image: none;
-	text-shadow: none;
-	border: none;
-	color: #698ebf!important;
-	box-shadow: none;
+    background-color: #E4EAFF;
+    background-image: none;
+    text-shadow: none;
+    border: none;
+    color: #698ebf!important;
+    box-shadow: none;
 }
 
 .zg-btn-green:active {
-	background: #E4EAFF;
- 	color: #698ebf;
-	background-color: #E4EAFF;
-	background-image: none;
-	box-shadow: none;
+    background: #E4EAFF;
+    color: #698ebf;
+    background-color: #E4EAFF;
+    background-image: none;
+    box-shadow: none;
 }
 
 .zg-btn-unfollow, .zg-btn-disabled {
-	background: #eee;
-	color: #999;
-	border: 0px solid #ddd;
+    background: #eee;
+    color: #999;
+    border: 0px solid #ddd;
 }
 
- .zg-btn-follow:active {
-	background: #E4EAFF;
-	background-color: #E4EAFF;
-	color:#698ebf!important;
-	background-image: none;
-	box-shadow: none;
+.zg-btn-follow:active {
+    background: #E4EAFF;
+    background-color: #E4EAFF;
+    color: #698ebf!important;
+    background-image: none;
+    box-shadow: none;
 }
 
 .zg-btn-white {
-	background: #eee;
-	background-color: #eee;
-	background-image:none;
-	text-shadow:none;
-	border:none;
-	box-shadow:none;
-  	color:#999!important;
+    background: #eee;
+    background-color: #eee;
+    background-image: none;
+    text-shadow: none;
+    border: none;
+    box-shadow: none;
+    color: #999!important;
 }
 
 .profile-navbar {
-	background-color:#fff;;
-	border-top:1px solid #ddd;
-  	border-bottom:1px solid #ddd;
-	box-shadow:none;
-  	margin-top: 20px;
-  	border-radius:0px;
+    background-color: #fff;
+    ;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    box-shadow: none;
+    margin-top: 20px;
+    border-radius: 0px;
 }
 
 .profile-navbar .item {
-	color: #666;
-  	position: relative;
-	top: 1px;
+    color: #666;
+    position: relative;
+    top: 1px;
 }
 
 .profile-navbar .item.home {
-	border-right:none;
+    border-right: none;
 }
 
 .profile-navbar .item.active {
-	color: #666;
-	border:none;
-	border-width: 0 1px;
-	background-color: #fff;
-	box-shadow: none;
-	border-radius:0px;
-  	border-bottom: 1px solid #666;
+    color: #666;
+    border: none;
+    border-width: 0 1px;
+    background-color: #fff;
+    box-shadow: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #666;
 }
 
 .profile-navbar .item .num {
-	margin-left: 4px;
+    margin-left: 4px;
 }
 
-
 .zm-profile-header-user-weibo .zm-profile-header-icon.sina {
-	background-position: -193px -108px;
-	width: 18px;
+    background-position: -193px -108px;
+    width: 18px;
 }
 
 .zm-profile-header-icon {
-  	vertical-align:-5px;
-	height: 18px;
+    vertical-align: -5px;
+    height: 18px;
     margin-right: 2px;
 }
 
 .profile-navbar .item.home {
-	border-right:0px;
+    border-right: 0px;
 }
 
 .zm-profile-section-list {
-	padding: 4px 14px;
+    padding: 4px 14px;
 }
 
 .zm-item+.zm-item {
-	padding-top: 12px;
+    padding-top: 12px;
 }
-
-
-
 /*===========================================*/
-/*==================擅长话题==================*/
+/*================== 擅长话题 ==================*/
 /*===========================================*/
-
 
 .skilled-topics .item .avatar, .expert-item-moving .avatar {
-	position: relative;
-	top: 4px;
+    position: relative;
+    top: 4px;
 }
 
 .zm-profile-section-more-btn {
-	visibility: hidden;
+    visibility: hidden;
 }
 
 .zm-profile-section-wrap {
-	border:none;
-	border-radius:0px;
-	box-shadow:none;
-	border-bottom: 1px solid #ddd;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
 }
 
 .skilled-topics .item, .expert-item-moving {
-	border-right:none;
-	margin-left:-1px;
-}
-
-.zm-profile-section-title {
+    border-right: none;
+    margin-left: -1px;
 }
 
 .zm-profile-section-head {
-  	border-bottom: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
 }
 
 .zm-profile-section-name {
-  	color: #999;
-	font-size: 14px;
+    color: #999;
+    font-size: 14px;
 }
 
 .zg-gray-darker {
-	color: #999;
+    color: #999;
 }
 
 .skilled-topics .item .content .content-inner h3, .expert-item-moving .content .content-inner h3, .skilled-topics .item .content .content-inner a, .expert-item-moving .content .content-inner a, .skilled-topics .item .content .content-inner p, .expert-item-moving .content .content-inner p {
-	line-height:1.8;
+    line-height: 1.8;
 }
 
 .skilled-topics .item .content .meta, .expert-item-moving .content .meta {
-	color: #999;
-  	font-weight: 400;
+    color: #999;
+    font-weight: 400;
 }
 
 .profile-navbar .item .num {
-	color: #999;
-	font-weight: 400;
+    color: #999;
+    font-weight: 400;
 }
-
-
-
 /*============================================*/
-/*====================回答====================*/
+/*==================== 回答 ====================*/
 /*===========================================*/
 
-
-
 .zm-profile-vote-count {
-	margin: 3px 0 0 0;
+    margin: 3px 0 0 0;
     color: #259;
 }
 
 .zm-votebar .up, .zm-votebar .down {
-	margin: 5px 0 0 0;
+    margin: 5px 0 0 0;
 }
-    
+
 .zm-profile-section-main.zm-profile-section-activity-main .question_link, .zm-profile-section-main.zm-profile-section-activity-main .post-link {
-	font-weight: 700;
-	line-height: 1.8em;
-	margin-bottom: 5px;
+    font-weight: 700;
+    line-height: 1.8em;
+    margin-bottom: 5px;
 }
-
-
-
 /*===========================================*/
-/*==================右侧栏====================*/
+/*================== 右侧栏 ====================*/
 /*===========================================*/
 
 .zu-noti7-popup .zu-top-nav-live-inner {
-	box-shadow: 0 0px 2px rgba(0,0,0,.3);
+    box-shadow: 0 0px 2px rgba(0, 0, 0, .3);
 }
 
 .zm-profile-side-following {
-	border-bottom: 1px solid #ddd;
-	margin: 10px 0 15px 0;
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0 15px 0;
 }
 
 .vote-thanks-relation .zg-icon.vote {
-	display: none;
+    display: none;
 }
-      
+
 .vote-thanks-relation .zg-icon.be-voted {
-	display: none;
+    display: none;
 }
 
 .zm-profile-side-section+.zm-profile-side-section {
-	border-top: 1px solid #ddd;
+    border-top: 1px solid #ddd;
 }
-  
+
 .zu-main-sidebar .zh-footer .zg-wrap {
-	border-top-color: #ddd;
+    border-top-color: #ddd;
 }
-  
+
 .zm-profile-side-following .item+.item {
-	border-left: 1px solid #ddd;
-}  
-  
-
+    border-left: 1px solid #ddd;
+}
 /*===========================================*/
-/*==================小名片====================*/
+/*================== 小名片 ====================*/
 /*===========================================*/
-
-
 
 .zh-profile-card .lower {
-	background: #fcfcfc;
+    background: #fcfcfc;
 }
 
 .zu-noti7-popup.zu-top-nav-live {
-	border:none;
+    border: none;
 }
 
 .popover.bottom .arrow2 {
-	top: 0px;
+    top: 0px;
 }
 
 .popover.top .arrow2 {
-	bottom: 0px;
-  	border-top: 13px solid #fcfcfc;
+    bottom: 0px;
+    border-top: 13px solid #fcfcfc;
 }
-            
+
 .popover .popover-content {
-	border:none;
-    box-shadow: 0 0px 2px rgba(0,0,0,.3);
+    border: none;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, .3);
 }
 
 .zm-noti7-popup-tab-item+.zm-noti7-popup-tab-item {
-	border-left: 0px solid #ddd;
+    border-left: 0px solid #ddd;
 }
 
 .zu-noti7-popup .zm-noti7-content-item {
-	border-bottom: 1px dotted #ddd;
+    border-bottom: 1px dotted #ddd;
 }
 
 .zm-noti7-content-body .zm-noti7-content-item.unread {
-	border-bottom: 1px dotted #ddd;
+    border-bottom: 1px dotted #ddd;
 }
-      
+
 .zu-noti7-popup .zm-noti7-content-item::after {
-	background: none;
+    background: none;
 }
-            
+
 .zm-noti7-frame-border {
-	background: #ddd;
+    background: #ddd;
 }
-
-
 /*===========================================*/
-/*==================提问页面==================*/
+/*================== 提问页面 ==================*/
 /*===========================================*/
-
 
 .modal-dialog-title {
-	background-color: #1575d5;
-	background-image: none;
-	padding: 10px 15px;
-	border-radius: 6px 6px 0 0;
-	border: 0px solid #0D6EB8;
-	box-shadow: none;
-   	margin:0px;
+    background-color: #1575d5;
+    background-image: none;
+    padding: 10px 15px;
+    border-radius: 6px 6px 0 0;
+    border: 0px solid #0D6EB8;
+    box-shadow: none;
+    margin: 0px;
 }
-  
+
 .modal-dialog-title-text {
-  	font-size: 14px;
+    font-size: 14px;
     font-weight: 700;
-	color: #fff;
-	text-shadow: none;
+    color: #fff;
+    text-shadow: none;
 }
-  
+
 .modal-dialog {
-	border: 0px solid #888;
-	box-shadow: 0 0 4px 0 rgba(0,0,0,.4);
+    border: 0px solid #888;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .4);
 }
 
 .zg-form-text-input {
-	box-shadow:none;
-	border-radius: 3px;
-	border: 1px solid #ddd;
-	color: #999;
+    box-shadow: none;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    color: #999;
 }
-  
+
 textarea.zg-form-text-input, .zg-form-text-input>textarea {
-	color: #444;
+    color: #444;
 }
-  
+
 .zm-editable-editor-field-wrap {
-	border: 1px solid #ddd;
-	box-shadow:none;
+    border: 1px solid #ddd;
+    box-shadow: none;
 }
-        
+
 .zm-add-question-form-topic-wrap .zm-tag-editor-editor {
-	box-shadow: none;
-	border: 1px solid #ddd!important;
-	padding: 8px 8px 3px;
-	position: relative;
+    box-shadow: none;
+    border: 1px solid #ddd!important;
+    padding: 8px 8px 3px;
+    position: relative;
 }
-                
+
 .zh-add-question-form .zm-add-question-form-sns-wrap .goog-checkbox.goog-checkbox-checked {
-	box-shadow: none;
+    box-shadow: none;
 }
 
 .zm-item-tag, .zm-tag-editor-edit-item {
-	background: #E4EAFF;
-  	color:#698ebf;
+    background: #E4EAFF;
+    color: #698ebf;
 }
 
 html.no-touch .zm-item-tag:hover, html.no-touch .zm-item-tag-x:hover {
-	background: #698ebf;
-	color: #fff;
-	text-decoration: none;
+    background: #698ebf;
+    color: #fff;
+    text-decoration: none;
 }
-
 
 .zg-icon-dropdown-menu {
-	width: 30px;
+    width: 30px;
 }
-
-
-
 /*===========================================*/
-/*==================问题页面==================*/
+/*================== 问题页面 ==================*/
 /*===========================================*/
-
 
 .question-invite-panel {
-	margin: 15px 0 35px;
-	color: #444;
-	border: 0px solid #ddd;
-	border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;
-	box-shadow: none;
-  	border-radius: 0px;
+    margin: 15px 0 35px;
+    color: #444;
+    border: 0px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    box-shadow: none;
+    border-radius: 0px;
 }
 
 .question-invite-panel .search-input {
-	color: #666;
-	background: #F9F9FF;
-	border: 1px solid #ddddFF;
+    color: #666;
+    background: #F9F9FF;
+    border: 1px solid #ddddFF;
 }
-    
+
 .zg-form-text-input:focus {
-	box-shadow: none;
-	border: 1px solid #E2E0FF;
-	position: relative;
-	background: #FCFCFF;
+    box-shadow: none;
+    border: 1px solid #E2E0FF;
+    position: relative;
+    background: #FCFCFF;
 }
-  
+
 .goog-toolbar {
-	border-top: 1px solid #ddd;
-	border-left: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-	box-shadow: none;
-	background-color: #f3f3f3;
-	background-image: none;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    box-shadow: none;
+    background-color: #f3f3f3;
+    background-image: none;
 }
 
 .goog-toolbar-button, .goog-toolbar-menu-button:hover {
-	box-shadow: none;
+    box-shadow: none;
 }
-    
+
 .zu-global-notify {
-	top: 0px;
-	box-shadow:none;
+    top: 0px;
+    box-shadow: none;
 }
 
 .zm-item-answer-author-wrap {
-	margin: 1px 0 0 0;
+    margin: 1px 0 0 0;
 }
 
 .zm-item-vote-info {
-	margin: 7px 0;
+    margin: 7px 0;
 }
 
 .zh-answer-form {
-	margin-bottom: 15px;
-	margin-top: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .zm-meta-panel {
-	padding: 3px 0;
+    padding: 3px 0;
 }
 
 .goog-menu {
-	background: #fff;
-	color: #666;
-	border: solid 1px #eee;
-	box-shadow:none;
+    background: #fff;
+    color: #666;
+    border: solid 1px #eee;
+    box-shadow: none;
 }
-
-
-
 /*===========================================*/
-/*==================话题页面==================*/
+/*================== 话题页面 ==================*/
 /*===========================================*/
-
-
 
 .side-topic-content.ellipsis {
-	left: 0px;
+    left: 0px;
 }
 
 .pin-topic-avatar-link {
-	position: relative;
-	top: 5px;
+    position: relative;
+    top: 5px;
 }
-  
+
 .side-topic-item {
-	padding: 13px;
-}  
+    padding: 13px;
+}
