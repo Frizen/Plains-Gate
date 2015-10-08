@@ -30,18 +30,6 @@
     }
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
-    .z-ico-community {
-        background-position: -19px -60px;
-        width: 14px;
-        height: 13px;
-    }
-    .z-ico-container:hover .z-ico-community, .z-ico-community:hover {
-        background-position: -19px -60px;
-        width: 14px;
-        height: 13px;
-    }
-}
 
 html body, html input, html textarea, html select, html button {
     font-family: 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
