@@ -1,4 +1,4 @@
-![Plains-Gate](http://pic4.zhimg.com/e0b0f57df6c510302a79c5f5b552f7ab_b.jpg)
+![Plains-Gate](http://pic4.zhimg.com/e0b0f57df6c510302a79c5f5b552f7ab.jpg)
 
 # Plains-Gate
 
