@@ -26,14 +26,14 @@
 @media screen and (-webkit-min-device-pixel-ratio: 2), not all {
     .z-ico-play-video, .z-ico-wechat-right-panel, .z-ico-show-password, .z-ico-hide-password, .z-ico-weibo, .z-ico-wechat-unlogin-page, .z-ico-weibo-share, .z-ico-wechat-share, .z-ico-green-check, .z-ico-gray-check, .z-ico-daily-share, .z-ico-qq, .z-ico-wechat, .z-ico-textedit, .z-ico-shameimaru-close, .z-ico-left, .z-ico-close, .z-ico-community:hover, .z-ico-community, .z-ico-video, .z-ico-extern-gray, .z-ico-extern-blue {
         background-image: url(http://www.zhihu.com/static/revved/img/compiled/icons@2x_e9908158f6.7089d725.png);
-        background-size: 108px 93px; 
+        background-size: 108px 93px;
     }
 }
 
-
 html body, html input, html textarea, html select, html button {
-    font-family: 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-    letter-spacing: 0.02em;
+    font-family: '.SFNSText-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    letter-spacing: 0.01em;
+    text-rendering: optimizeLegibility;
 }
 
 body, input, textarea, select, button {
@@ -55,6 +55,17 @@ i, em {
     font-style: normal!important;
 }
 
+strong, b {
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
 /*===========================================*/
 /*================== 首页动态 ==================*/
 /*===========================================*/
@@ -181,6 +192,40 @@ a.zu-main-feed-fresh-button:hover, a.zu-main-feed-fresh-button:active {
     background-color: #FCFCFF;
 }
 
+.modal-dialog-buttons button[name=cancel] {
+    color: #999;
+    background: transparent;
+    cursor: none;
+}
+
+html.no-touch .modal-dialog-buttons button[name=cancel]:hover {
+    text-decoration: none;
+}
+
+.goog-buttonset-default {
+    background-color: #2c93ee;
+    background-image: none;
+    text-shadow: none;
+    border: 0px;
+    color: #fff!important;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.goog-buttonset-default:hover {
+    background: #35A0FF;
+    background-color: #35A0FF;
+    background-image: none;
+    box-shadow: none;
+}
+
+.goog-buttonset-default:active {
+    background: #35A0FF;
+    background-color: #35A0FF;
+    background-image: none;
+    box-shadow: none;
+}
+
 .zg-btn-blue {
     background-color: #2c93ee;
     background-image: none;
@@ -189,7 +234,20 @@ a.zu-main-feed-fresh-button:hover, a.zu-main-feed-fresh-button:active {
     color: #fff!important;
     box-shadow: none;
     border-radius: 3px;
-    font-weight: 400;
+}
+
+.zg-btn-blue:hover {
+    background: #35A0FF;
+    background-color: #35A0FF;
+    background-image: none;
+    box-shadow: none;
+}
+
+.zg-btn-blue:active {
+    background: #35A0FF;
+    background-color: #35A0FF;
+    background-image: none;
+    box-shadow: none;
 }
 
 .zm-command-cancel {
@@ -227,7 +285,7 @@ html.no-touch .zm-comment-box .load-more:hover {
 .feed-item .time {
     opacity: 0;
     margin-top: -2px;
-    transition: 0s;
+    transition: .1s;
 }
 
 .feed-item:hover .time {
@@ -237,7 +295,7 @@ html.no-touch .zm-comment-box .load-more:hover {
 .feed-item .avatar img {
     opacity: 0.5;
     border-radius: 3px;
-    transition: 0s;
+    transition: .1s;
 }
 
 .feed-item:hover .avatar img {
@@ -250,12 +308,13 @@ html.no-touch .zm-comment-box .load-more:hover {
 
 .feed-item:hover .zm-item-vote-count {
     opacity: 1;
-    transition: 0s;
+    transition: .1s;
 }
 
 .feed-item .ignore {
     visibility: visible!important;
     opacity: 0;
+    right: -4px;
 }
 
 .feed-item:hover .ignore {
@@ -263,7 +322,7 @@ html.no-touch .zm-comment-box .load-more:hover {
 }
 
 .zu-autohide {
-    transition: 0s;
+    transition: .1s;
 }
 
 .feed-item .entry-body, .feed-item .zm-item-answer {
@@ -282,15 +341,16 @@ html.no-touch .zm-comment-box .load-more:hover {
     display: none;
 }
 
-a.toggle-expand {
-    transition: 0s;
+.video-box-thumbnail {
+    display: none;
 }
 
-.zg-btn-blue:active {
-    background: #99F;
-    background-color: #99F;
-    background-image: none;
-    box-shadow: none;
+.video-box-thumbnail .thumbnail {
+    display: none;
+}
+
+a.toggle-expand {
+    transition: .1s;
 }
 
 .zm-noti7-frame-border.top::after {
@@ -358,24 +418,6 @@ display: inline!important;
 /*===========================================*/
 /*================== 侧边栏 ====================*/
 /*===========================================*/
-
-.zu-top-search-form .zu-top-search-button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 40px;
-    height: 31px;
-    background: #2C93EE;
-    background-color: #2C93EE;
-    background-image: none;
-    border: 1px solid #2C93EE;
-    box-shadow: none;
-    box-sizing: border-box;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    outline: 0;
-    cursor: pointer;
-}
 
 .zm-side-nav-link {
     margin-bottom: 3px;
@@ -450,6 +492,24 @@ a.shameimaru-link:hover {
 /*=================== 搜索框 ===================*/
 /*===========================================*/
 
+.zu-top-search-form .zu-top-search-button {
+    width: 40px;
+    height: 31px;
+    background: #2C93EE;
+    background-color: #2C93EE;
+    background-image: none;
+    border: 1px solid #2C93EE;
+    box-shadow: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: all .1s;
+}
+
+.zu-top-search-button:hover {
+    background-color: #35A0FF;
+    border: 1px solid #35A0FF;
+}
+
 .hide-text {
     display: none;
 }
@@ -459,6 +519,7 @@ a.shameimaru-link:hover {
     box-shadow: none;
     background-color: #F1F1FF;
     color: #999;
+    border-radius: 3px 4px 4px 3px;
 }
 
 .zu-top-search-input:focus {
@@ -468,7 +529,6 @@ a.shameimaru-link:hover {
 }
 
 .zu-top-add-question {
-    background: #2c93ee;
     margin: 7px 0 0 0;
     background-color: #2c93ee;
     background-image: none;
@@ -476,23 +536,34 @@ a.shameimaru-link:hover {
     height: 31px;
     box-shadow: none;
     text-shadow: none;
+    border-radius: 3px;
 }
 
-.zu-top-add-question:active {
-    background-color: #1069bd;
-    background: #1069bd;
+.zu-top-add-question:hover {
+    background-color: #35A0FF;
     border: none;
     box-shadow: none;
 }
 
+.zu-top-add-question:active {
+    background-color: #35A0FF;
+    background: #35A0FF;
+    border: 0px solid #0659ac;
+    box-shadow: none;
+}
+
 .ac-renderer {
-	left: 0px;
-    -moz-box-shadow: 0 0px 2px rgba(0,0,0,.3);
-    box-shadow: 0 0px 2px rgba(0,0,0,.3);
+    left: 0px;
+    -moz-box-shadow: 0 0px 2px rgba(0, 0, 0, .3);
+    box-shadow: 0 0px 2px rgba(0, 0, 0, .3);
 }
 /*===========================================*/
 /*================== 导航菜单 ==================*/
 /*===========================================*/
+
+.zu-top-link-logo {
+    background-position: 0 7px;
+}
 
 .top-nav-dropdown {
     display: block;
@@ -514,7 +585,7 @@ a.shameimaru-link:hover {
 }
 
 .top-nav-dropdown .zg-icon {
-    margin: 0 8px 0 18px;
+    margin: 0 8px 0 20px;
 }
 
 .zu-top-nav-link {
@@ -529,18 +600,24 @@ a.shameimaru-link:hover {
 }
 
 .zu-top-nav-link:hover {
-    color: #FFF;
-    background-color: #1069BD;
+    color: #FFF!important;
+}
+
+.zu-top-nav-link, .zu-top-nav-link:visited, .zu-top-nav-link:active {
+    color: #ddd;
 }
 
 .zu-top-nav-li.current {
-    background-color: #1069bd;
-    background-image: none;
+    background-image: -webkit-linear-gradient(top, #137AD5, #1069bd);
     box-shadow: none;
 }
 
 .zu-top-nav-userinfo .zu-top-nav-pm-count {
     left: 34px;
+}
+
+.top-nav-profile:hover .zu-top-nav-userinfo {
+    background-image: -webkit-linear-gradient(top, #137AD5, #1069bd)!important;
 }
 
 .zu-top-nav-userinfo.selected, html.no-touch .top-nav-profile:hover .zu-top-nav-userinfo {
@@ -560,6 +637,8 @@ a.shameimaru-link:hover {
 .top-nav-dropdown li a {
     border-top: none;
     box-shadow: none;
+    height: 44px;
+    line-height: 44px;
 }
 
 .top-nav-profile {
@@ -574,6 +653,7 @@ a.shameimaru-link:hover {
 
 .top-nav-profile .top-nav-dropdown a {
     width: 130px;
+    transition: all .1s ease-in-out;
 }
 
 .zu-top-nav-userinfo .avatar {
@@ -596,19 +676,25 @@ a.shameimaru-link:hover {
 html.no-touch .top-nav-dropdown a:hover {
     width: 130px;
     background-color: #1b78d0;
+    background-image: none;
+    transition: all .1s;
 }
 /*===========================================*/
 /*================== 个人页面 ==================*/
 /*===========================================*/
 
+.zm-profile-header-info {
+    margin-left: 122px;
+}
+
 .zm-profile-header {
     border: none;
     box-shadow: none;
     border-radius: 0 0 0 0;
-    color: #666;
+    color: #999;
 }
 
-.zg-avatar-big {
+img.avatar.avatar-l {
     width: 118px;
     height: 118px;
     border: none;
@@ -626,10 +712,6 @@ html.no-touch .top-nav-dropdown a:hover {
 }
 
 .zm-profile-header .zm-profile-header-user-describe .item .topic-link {
-    color: #666;
-}
-
-.zm-profile-header-main .name, .zm-profile-header-main .name:visited {
     color: #444;
 }
 
@@ -644,29 +726,35 @@ html.no-touch .top-nav-dropdown a:hover {
     visibility: hidden;
 }
 
-.ellipsis {
+.title-section.ellipsis {
     position: relative;
-    left: 141px;
+    left: 148px;
     max-width: 380px;
+    color: #666;
+    font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
 h3.ellipsis {
     left: 0px;
 }
 
-.zm-profile-header-main .name, .zm-profile-header-main .name:visited {
-    font-weight: 700;
+.zm-profile-header-main .name {
+    font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-weight: 600;
+    color: #444;
 }
 
 .zm-profile-header .items {
     position: relative;
     left: 24px;
     min-height: 78px;
+    color: #444;
 }
 
 .zm-profile-header-description {
     border-top: none;
-    margin: 3px -18px 0 -115px;
+    margin: 3px -18px 0 -122px;
+    color: #444;
 }
 
 .zm-profile-header-operation {
@@ -776,6 +864,27 @@ h3.ellipsis {
 .zm-item+.zm-item {
     padding-top: 12px;
 }
+
+.zm-profile-header-user-agree .zm-profile-header-icon {
+    background-position: -123px -146px;
+}
+
+.zm-profile-header-operation strong {
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    color: #666;
+    font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.zm-profile-side-following .item strong {
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.vote-thanks-relation p+p {
+    margin-top: 2px;
+}
 /*===========================================*/
 /*================== 擅长话题 ==================*/
 /*===========================================*/
@@ -806,12 +915,12 @@ h3.ellipsis {
 }
 
 .zm-profile-section-name {
-    color: #999;
+    color: #666;
     font-size: 14px;
 }
 
 .zg-gray-darker {
-    color: #999;
+    color: #666;
 }
 
 .skilled-topics .item .content .content-inner h3, .expert-item-moving .content .content-inner h3, .skilled-topics .item .content .content-inner a, .expert-item-moving .content .content-inner a, .skilled-topics .item .content .content-inner p, .expert-item-moving .content .content-inner p {
@@ -827,6 +936,10 @@ h3.ellipsis {
     color: #999;
     font-weight: 400;
 }
+
+i.zm-profile-header-icon.sina {
+    vertical-align: -3px;
+}
 /*============================================*/
 /*==================== 回答 ====================*/
 /*===========================================*/
@@ -841,7 +954,7 @@ h3.ellipsis {
 }
 
 .zm-profile-section-main.zm-profile-section-activity-main .question_link, .zm-profile-section-main.zm-profile-section-activity-main .post-link {
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.8em;
     margin-bottom: 5px;
 }
@@ -872,30 +985,77 @@ h3.ellipsis {
 
 .zu-main-sidebar .zh-footer .zg-wrap {
     border-top-color: #ddd;
+    letter-spacing: 0;
 }
 
 .zm-profile-side-following .item+.item {
-    border-left: 1px solid #ddd;
+    border-left: 0px solid #ddd;
+    padding-left: 10px;
 }
 /*===========================================*/
 /*================== 小名片 ====================*/
 /*===========================================*/
 
+i.icon.icon-profile-female {
+    margin-top: -3px;
+}
+
+i.icon.icon-profile-male {
+    margin-top: -2px;
+}
+
+.popover .popover-content {
+    border-radius: 4px;
+}
+
+#zh-tooltip.goog-hovercard.popover {
+    margin-top: -1px;
+}
+
+.zh-profile-card .lower .meta .item {
+    margin-left: 6px;
+    padding: 0 12px;
+    border-right: 0px solid #eee;
+}
+
+.zh-profile-card .lower .meta .item .value {
+    font-size: 15px;
+    font-weight: 600;
+    color: #600;
+    letter-spacing: 0.02em;
+    font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.zh-profile-card .lower .meta .item .key {
+    font-size: 13px;
+    color: #999;
+}
+
 .zh-profile-card .lower {
-    background: #fcfcfc;
+    background: #FAFAFF;
 }
 
 .zu-noti7-popup.zu-top-nav-live {
     border: none;
 }
 
+.popover.bottom .arrow {
+    display: none;
+}
+
 .popover.bottom .arrow2 {
     top: 0px;
+    display: none;
+}
+
+.popover.top .arrow {
+    display: none;
 }
 
 .popover.top .arrow2 {
     bottom: 0px;
     border-top: 13px solid #fcfcfc;
+    display: none;
 }
 
 .popover .popover-content {
@@ -938,7 +1098,7 @@ h3.ellipsis {
 
 .modal-dialog-title-text {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
     color: #fff;
     text-shadow: none;
 }
@@ -978,6 +1138,7 @@ textarea.zg-form-text-input, .zg-form-text-input>textarea {
 .zm-item-tag, .zm-tag-editor-edit-item {
     background: #E4EAFF;
     color: #698ebf;
+    transition: all .1s;
 }
 
 html.no-touch .zm-item-tag:hover, html.no-touch .zm-item-tag-x:hover {
@@ -992,6 +1153,10 @@ html.no-touch .zm-item-tag:hover, html.no-touch .zm-item-tag-x:hover {
 /*===========================================*/
 /*================== 问题页面 ==================*/
 /*===========================================*/
+
+.zu-edit-button {
+    transition: all .1s;
+}
 
 .question-invite-panel {
     margin: 15px 0 35px;
@@ -1056,6 +1221,10 @@ html.no-touch .zm-item-tag:hover, html.no-touch .zm-item-tag-x:hover {
     color: #666;
     border: solid 1px #eee;
     box-shadow: none;
+}
+
+.zm-tag-editor-remove-button {
+    transition: none;
 }
 /*===========================================*/
 /*================== 话题页面 ==================*/
