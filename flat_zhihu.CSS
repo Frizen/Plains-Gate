@@ -32,7 +32,7 @@
 
 html body, html input, html textarea, html select, html button {
     font-family: '.SFNSText-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.02em;
     text-rendering: optimizeLegibility;
 }
 
@@ -609,6 +609,7 @@ a.shameimaru-link:hover {
 
 .zu-top-nav-li.current {
     background-image: -webkit-linear-gradient(top, #137AD5, #1069bd);
+    background-image: -moz-linear-gradient(top,#137AD5, #1069bd);
     box-shadow: none;
 }
 
@@ -618,6 +619,7 @@ a.shameimaru-link:hover {
 
 .top-nav-profile:hover .zu-top-nav-userinfo {
     background-image: -webkit-linear-gradient(top, #137AD5, #1069bd)!important;
+    background-image: -moz-linear-gradient(top,#137AD5, #1069bd)!important;
 }
 
 .zu-top-nav-userinfo.selected, html.no-touch .top-nav-profile:hover .zu-top-nav-userinfo {
