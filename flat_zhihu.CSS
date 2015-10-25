@@ -52,14 +52,6 @@ a {
 	transition: all .2s ease-in-out;
 }
 
-html.no-touch .meta-item:hover .goog-menu-button-caption{
-	text-decoration: none!important;
-}
-
-html.no-touch .zg-follow:hover {
-	color: #698ebf;
-}
-
 i, em {
 	font-style: normal!important;
 }
@@ -613,6 +605,11 @@ a.toggle-expand {
 .zg-bull {
 	margin-bottom: -1px;
 }
+
+html.no-touch .meta-item:hover .goog-menu-button-caption{
+	text-decoration: none!important;
+}
+
 /* 首页 feed 底部操作
 .zm-meta-panel .zg-bull {
 display: none;
@@ -880,6 +877,10 @@ html.no-touch .top-nav-dropdown a:hover {
 /*===========================================*/
 /*================== 个人页面 ==================*/
 /*===========================================*/
+
+html.no-touch .zg-follow:hover {
+	color: #698ebf;
+}
 
 .zm-profile-header-info {
 	margin-left: 122px;
@@ -1837,6 +1838,10 @@ a.toggle-expand {
 	vertical-align: inherit;
 }
 
+html.no-touch .meta-item:hover .goog-menu-button-caption{
+	text-decoration: none!important;
+}
+
 .zg-bull {
 	margin-bottom: -1px;
 }
@@ -2107,6 +2112,10 @@ html.no-touch .top-nav-dropdown a:hover {
 /*===========================================*/
 /*================== 个人页面 ==================*/
 /*===========================================*/
+
+html.no-touch .zg-follow:hover {
+	color: #698ebf;
+}
 
 .zm-profile-header-info {
 	margin-left: 122px;
