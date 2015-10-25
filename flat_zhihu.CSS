@@ -52,6 +52,14 @@ a {
 	transition: all .2s ease-in-out;
 }
 
+html.no-touch .meta-item:hover .goog-menu-button-caption{
+	text-decoration: none!important;
+}
+
+html.no-touch .zg-follow:hover {
+	color: #698ebf;
+}
+
 i, em {
 	font-style: normal!important;
 }
