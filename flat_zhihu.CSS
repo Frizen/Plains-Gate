@@ -1194,6 +1194,7 @@ i.zm-profile-header-icon.sina {
 .zu-main-sidebar .zh-footer .zg-wrap {
 	border-top-color: #ddd;
 	letter-spacing: 0;
+	width:auto;
 }
 
 .zm-profile-side-following .item+.item {
@@ -2429,6 +2430,7 @@ i.zm-profile-header-icon.sina {
 .zu-main-sidebar .zh-footer .zg-wrap {
 	border-top-color: #ddd;
 	letter-spacing: 0;
+	width:auto;
 }
 
 .zm-profile-side-following .item+.item {
