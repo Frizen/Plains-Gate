@@ -10,7 +10,7 @@ The first project is Zhihu(www.zhihu.com) . The UI part of the project is almost
 
 The second project is bilibili(www.bilibili.tv) which is still in preparation.
 
-#### User Guide
+##### User Guide
 
 1. Plaese use it on Chrome or Firefox.
 2. Chrome uesr open this page to install Stylish: [Stylish - Chrome Web Store](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe/)
@@ -29,7 +29,7 @@ The second project is bilibili(www.bilibili.tv) which is still in preparation.
 
 第二个子项目是哔哩哔哩，目前处于设（wa）计（keng）阶段，竣工日期未知。
 
-#### 如何使用
+##### 如何使用
 
 1. 确认自己用的是 Chrome 谷歌浏览器或 Firefox 火狐浏览器
 2. Chrome 用户请下载并安装好 Stylish 这个扩展程序：[Stylish - Chrome Web Store](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe/)
