@@ -35,3 +35,5 @@ The second project is bilibili(www.bilibili.tv) which is still in preparation.
 2. Chrome 用户请下载并安装好 Stylish 这个扩展程序：[Stylish - Chrome Web Store](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe/)
 3. Firefox 用户请到这里安装： [Stylish for Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome/)
 4. 打开这个页面[Flat_Zhihu ](https://userstyles.org/styles/108011/flat-zhihu-v2-1/)，一键安装
+
+反馈和建议可通过知乎私信 @錦榮 或在专栏下评论：http://zhuanlan.zhihu.com/my-little-airplane/20294251
