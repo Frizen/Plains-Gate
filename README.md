@@ -10,6 +10,9 @@ The first project is Zhihu(www.zhihu.com) . The UI part of the project is almost
 
 The second project is bilibili(www.bilibili.tv) which is still in preparation.
 
+### User Guide
+1. 
+
 
 ----
 
@@ -20,3 +23,10 @@ The second project is bilibili(www.bilibili.tv) which is still in preparation.
 第一个子项目是知乎，目前完成度已经接近 80% 了。UI 方面基本完成，交互上虽然还有很多想要优化的地方，但是绝大多数交互问题已经不是写个 CSS 就能解决得了的，于是暂时搁置。可以通过 Stylish这个插件来使用这个 CSS：https://userstyles.org/
 
 第二个子项目是哔哩哔哩，目前处于设（wa）计（keng）阶段，竣工日期未知。
+
+### 如何使用
+
+1. 确认自己用的是 Chrome 谷歌浏览器或 Firefox 火狐浏览器
+2. Chrome 用户请下载并安装好 Stylish 这个扩展程序：https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe/
+3. Firefox 用户请到这里安装： https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome/
+4. 打开这个页面：https://userstyles.org/styles/108011/flat-zhihu-v2-1/，一键安装
