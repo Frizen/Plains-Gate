@@ -285,6 +285,17 @@ address, blockquote, sup {
 .feed-item .source {
 	font-size: 13px;
 }
+
+@media (max-width: 1280px) and (min-width: 968px) {
+	.zm-side-my-columns .column-link {
+  	 	padding-bottom: 4px!important;
+	}
+}
+
+.zm-side-my-columns .column-link {
+	line-height: 32px;
+    padding-bottom: 2px;
+}
 /*===========================================*/
 /*================== 首页动态 ==================*/
 /*===========================================*/
@@ -630,6 +641,8 @@ display: inline!important;
 /*===========================================*/
 /*================== 侧边栏 ====================*/
 /*===========================================*/
+
+
 
 .zm-side-nav-link {
 	margin-bottom: 3px;
@@ -1866,6 +1879,8 @@ display: inline!important;
 /*===========================================*/
 /*================== 侧边栏 ====================*/
 /*===========================================*/
+
+
 
 .zm-side-nav-link {
 	margin-bottom: 3px;
