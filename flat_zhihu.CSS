@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5 {
 	width: 1200px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.zg-wrap {
 		width: 960px!important;
 	}
@@ -86,7 +86,7 @@ html body, html input, html textarea, html select, html button {
 	line-height: 1.8em;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	html body, html input, html textarea, html select, html button {
 		font-size: 13px!important;
 		line-height: 1.9em!important;
@@ -97,7 +97,7 @@ address, blockquote, sup {
 	line-height: 1.8em;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	address, blockquote, sup {
 		line-height: 1.9em!important;
 	}
@@ -108,7 +108,7 @@ address, blockquote, sup {
 	width: 288px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.zu-main-sidebar {
 		margin: 0 0 0 -270px!important;
 		width: 270px!important;
@@ -120,7 +120,7 @@ address, blockquote, sup {
 	margin: 0 388px 0 0;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.zu-main-content-inner {
 		position: relative;
 		margin: 0 328px 0 0!important;
@@ -131,7 +131,7 @@ address, blockquote, sup {
 	height: 34px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.zm-side-nav-link {
 		height: 31px!important;
 	}
@@ -141,7 +141,7 @@ address, blockquote, sup {
 	font-size: 14px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.zm-item-answer-author-wrap {
 		font-size: 13px!important;
 	}
@@ -151,7 +151,7 @@ address, blockquote, sup {
 	margin: 7px 0 0 34px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.zu-top-search {
 		margin: 7px 0 0 12px!important;
 	}
@@ -161,7 +161,7 @@ address, blockquote, sup {
 	width: 400px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.zu-top-search-form {
 		width: 367px!important;
 	}
@@ -171,7 +171,7 @@ address, blockquote, sup {
 	margin: 0 0 0 40px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.zu-top-nav-ul {
 		margin: 0 0 0 18px!important;
 	}
@@ -181,7 +181,7 @@ address, blockquote, sup {
 	width: 60px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.zu-top-nav-link {
 		width: 54px!important;
 	}
@@ -193,7 +193,7 @@ address, blockquote, sup {
 	font-size: 13px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.zu-noti7-popup.zu-top-nav-live {
 		left: 52px!important;
 	}
@@ -204,7 +204,7 @@ address, blockquote, sup {
 	margin-top: -6px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.feed-item .time {
 		font-size: 13px!important;
 		margin-top: -4px!important;
@@ -215,7 +215,7 @@ address, blockquote, sup {
 	max-width: 700px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.zm-comment-box {
 		max-width: 540px!important;
 	}
@@ -225,7 +225,7 @@ address, blockquote, sup {
 	font-size: 15px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.feed-item .content h2 {
 		font-size: 14px!important;
 	}
@@ -235,7 +235,7 @@ address, blockquote, sup {
 	margin-top: 2px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.feed-item .entry-body, .feed-item .zm-item-answer {
 		margin-top: 4px!important;
 	}
@@ -246,7 +246,7 @@ address, blockquote, sup {
 	color: #444!important;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.feed-item .author-info, .feed-item .author-info a {
 		margin-bottom: 6px;
 	}
@@ -256,7 +256,7 @@ address, blockquote, sup {
 	margin: 2px 0 5px 0;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.feed-item .zm-item-vote-info, .feed-item .zm-item-answer-author-info {
 		margin: 2px 0 6px 0!important;
 	}
@@ -266,7 +266,7 @@ address, blockquote, sup {
 	margin: 7px 10px 0 0;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.zu-top-add-question {
 		margin: 7px 0 0 0!important;
 	}
@@ -276,7 +276,7 @@ address, blockquote, sup {
 	margin-left: 300px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.zh-backtotop {
 		margin-left: 230px!important;
 	}
@@ -286,7 +286,7 @@ address, blockquote, sup {
 	font-size: 13px;
 }
 
-@media (max-width: 1280px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 968px) {
 	.zm-side-my-columns .column-link {
   	 	padding-bottom: 4px!important;
 	}
@@ -621,6 +621,10 @@ html.no-touch .meta-item:hover .goog-menu-button-caption{
 	text-decoration: none!important;
 }
 
+img.avatar.avatar-xs {
+	max-width: none;
+}
+
 /* 首页 feed 底部操作
 .zm-meta-panel .zg-bull {
 display: none;
@@ -918,7 +922,6 @@ img.avatar.avatar-l {
 }
 
 .zm-entry-head-avatar-edit-button {
-	bottom: -18px;
 	width: 118px;
 	border-radius: 0 0 7px 7px;
 }
@@ -932,6 +935,8 @@ img.avatar.avatar-l {
 	top: -38px;
 	box-shadow: none;
 	border-radius: 0px;
+	width: 118px;
+    height: 118px;
 }
 
 .zm-profile-header .zm-profile-header-user-detail {
@@ -1859,6 +1864,10 @@ html.no-touch .meta-item:hover .goog-menu-button-caption{
 .zg-bull {
 	margin-bottom: -1px;
 }
+
+img.avatar.avatar-xs {
+	max-width: none;
+}
 /* 首页 feed 底部操作
 .zm-meta-panel .zg-bull {
 display: none;
@@ -2156,7 +2165,6 @@ img.avatar.avatar-l {
 }
 
 .zm-entry-head-avatar-edit-button {
-	bottom: -18px;
 	width: 118px;
 	border-radius: 0 0 7px 7px;
 }
@@ -2170,6 +2178,8 @@ img.avatar.avatar-l {
 	top: -38px;
 	box-shadow: none;
 	border-radius: 0px;
+	width: 118px;
+    height: 118px;
 }
 
 .zm-profile-header .zm-profile-header-user-detail {
