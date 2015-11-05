@@ -12,9 +12,9 @@ The second project is bilibili(www.bilibili.tv) which is still in preparation.
 
 ##### User Guide
 
-1. Plaese use it on Chrome or Firefox.
+1. Please use it on Chrome or Firefox.
 2. Chrome uesr open this page to install Stylish: [Stylish - Chrome Web Store](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe/)
-3. Firefox user please open this page: [Stylish for Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome/)
+3. Firefox user open this page: [Stylish for Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome/)
 4. Open this page to install CSS: [Flat_Zhihu ](https://userstyles.org/styles/108011/flat-zhihu-v2-1/)
 5. Enjoy!
 
