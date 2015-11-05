@@ -16,7 +16,7 @@ The second project is bilibili(www.bilibili.tv) which is still in preparation.
 4. Open this page to install CSS: [Flat_Zhihu ](https://userstyles.org/styles/108011/flat-zhihu-v2-1/)
 5. Enjoy!
 
-If you have any problems or advices with this project, comment or send me a message on Zhihu:[【Plains;Gate.】Flat_Zhihu v2.1](http://zhuanlan.zhihu.com/my-little-airplane/20294251)
+If you have any problems or advices with this project, comment or send me a message on Zhihu:[【Plains;Gate.】Flat_Zhihu v2.1 - 知乎专栏](http://zhuanlan.zhihu.com/my-little-airplane/20294251)
 
 
 ----
@@ -36,4 +36,4 @@ If you have any problems or advices with this project, comment or send me a mess
 3. Firefox 用户请到这里安装： [Stylish for Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome/)
 4. 打开这个页面[Flat_Zhihu ](https://userstyles.org/styles/108011/flat-zhihu-v2-1/)，一键安装
 
-反馈和建议可通过知乎私信 @錦榮 或在专栏下评论：[【Plains;Gate.】Flat_Zhihu v2.1](http://zhuanlan.zhihu.com/my-little-airplane/20294251)
+反馈和建议可通过知乎私信 @錦榮 或在专栏下评论：[【Plains;Gate.】Flat_Zhihu v2.1 - 知乎专栏](http://zhuanlan.zhihu.com/my-little-airplane/20294251)
