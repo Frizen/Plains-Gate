@@ -1,4 +1,4 @@
-@-moz-document url-prefix("http://www.zhihu.com/question/"), regexp("http://www.zhihu.com/") {
+@-moz-document url-prefix("http://www.zhihu.com/question/"), url-prefix("https://www.zhihu.com/question/"), regexp("http://www.zhihu.com/"), regexp("https://www.zhihu.com/") {
 /*===========================================*/
 /*=================== 全局 =====================*/
 /*===========================================*/
@@ -1471,7 +1471,7 @@ html.no-touch .zm-item-tag:hover, html.no-touch .zm-item-tag-x:hover {
 }
 }
 
-@-moz-document url-prefix("http://www.zhihu.com/") {
+@-moz-document url-prefix("http://www.zhihu.com/"), url-prefix("https://www.zhihu.com/") {
 /*===========================================*/
 /*=================== 全局 =====================*/
 /*===========================================*/
