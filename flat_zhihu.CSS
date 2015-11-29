@@ -2732,4 +2732,7 @@ html.no-touch .zm-item-tag:hover, html.no-touch .zm-item-tag-x:hover {
 .side-topic-item {
 	padding: 13px;
 }
+
+.zm-topic-cat-sub p {
+	height: 3.4em;
 }
