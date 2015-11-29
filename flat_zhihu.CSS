@@ -361,7 +361,6 @@ a.zu-main-feed-fresh-button:hover, a.zu-main-feed-fresh-button:active {
 }
 
 .feed-item+.feed-item, .feed-separator+.feed-item {
-	border-top: 1px solid #ddd;
 	padding: 18px 0 13px 0;
 }
 
