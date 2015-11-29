@@ -541,6 +541,7 @@ html.no-touch .zm-comment-box .load-more:hover {
 
 .zu-autohide {
 	transition: .1s;
+	font-size: 13px;
 }
 
 .feed-item.combine.first-combine .content, .feed-item.combine.first-combine .entry-body {
