@@ -229,10 +229,6 @@ address, blockquote, sup {
 	.feed-item .content h2 {
 		font-size: 14px!important;
 	}
-
-	.source .zg-bull {
-	    font-size: 14px;
-	}
 }
 
 .feed-item .entry-body, .feed-item .zm-item-answer {
@@ -292,13 +288,13 @@ address, blockquote, sup {
 
 @media (max-width: 1400px) and (min-width: 968px) {
 	.zm-side-my-columns .column-link {
-  	 	padding-bottom: 4px!important;
+		padding-bottom: 4px!important;
 	}
 }
 
 .zm-side-my-columns .column-link {
 	line-height: 32px;
-    padding-bottom: 2px;
+	padding-bottom: 2px;
 }
 /*===========================================*/
 /*================== 首页动态 ==================*/
@@ -606,6 +602,7 @@ a.toggle-expand {
 
 .source .zg-bull {
 	display: none;
+	font-size: 14px;
 }
 
 .feed-item:hover .source .zg-bull {
@@ -621,14 +618,13 @@ a.toggle-expand {
 	margin-bottom: -1px;
 }
 
-html.no-touch .meta-item:hover .goog-menu-button-caption{
+html.no-touch .meta-item:hover .goog-menu-button-caption {
 	text-decoration: none!important;
 }
 
 img.avatar.avatar-xs {
 	max-width: none;
 }
-
 /* 首页 feed 底部操作
 .zm-meta-panel .zg-bull {
 display: none;
@@ -649,8 +645,6 @@ display: inline!important;
 /*===========================================*/
 /*================== 侧边栏 ====================*/
 /*===========================================*/
-
-
 
 .zm-side-nav-link {
 	margin-bottom: 3px;
@@ -811,9 +805,9 @@ a.shameimaru-link:hover {
 
 .zu-top-nav-userinfo.selected, html.no-touchevents .top-nav-profile:hover .zu-top-nav-userinfo {
 	height: 46px!important;
-    background-image: -webkit-linear-gradient(top, #137AD5, #1069bd)!important;
-    background-image: -moz-linear-gradient(top, #137AD5, #1069bd)!important;
-    box-shadow: none;
+	background-image: -webkit-linear-gradient(top, #137AD5, #1069bd)!important;
+	background-image: -moz-linear-gradient(top, #137AD5, #1069bd)!important;
+	box-shadow: none;
 }
 
 html.no-touchevents .top-nav-dropdown a:hover {
@@ -951,7 +945,7 @@ img.avatar.avatar-l {
 	box-shadow: none;
 	border-radius: 0px;
 	width: 118px;
-    height: 118px;
+	height: 118px;
 }
 
 .zm-profile-header .zm-profile-header-user-detail {
@@ -1227,7 +1221,7 @@ i.zm-profile-header-icon.sina {
 .zu-main-sidebar .zh-footer .zg-wrap {
 	border-top-color: #ddd;
 	letter-spacing: 0;
-	width:auto!important;
+	width: auto!important;
 }
 
 .zm-profile-side-following .item+.item {
@@ -1861,6 +1855,7 @@ a.toggle-expand {
 
 .source .zg-bull {
 	display: none;
+	font-size: 14px;
 }
 
 .feed-item:hover .source .zg-bull {
@@ -1872,7 +1867,7 @@ a.toggle-expand {
 	vertical-align: inherit;
 }
 
-html.no-touch .meta-item:hover .goog-menu-button-caption{
+html.no-touch .meta-item:hover .goog-menu-button-caption {
 	text-decoration: none!important;
 }
 
@@ -1903,8 +1898,6 @@ display: inline!important;
 /*===========================================*/
 /*================== 侧边栏 ====================*/
 /*===========================================*/
-
-
 
 .zm-side-nav-link {
 	margin-bottom: 3px;
@@ -2065,9 +2058,9 @@ a.shameimaru-link:hover {
 
 .zu-top-nav-userinfo.selected, html.no-touchevents .top-nav-profile:hover .zu-top-nav-userinfo {
 	height: 46px!important;
-    background-image: -webkit-linear-gradient(top, #137AD5, #1069bd)!important;
-    background-image: -moz-linear-gradient(top, #137AD5, #1069bd)!important;
-    box-shadow: none;
+	background-image: -webkit-linear-gradient(top, #137AD5, #1069bd)!important;
+	background-image: -moz-linear-gradient(top, #137AD5, #1069bd)!important;
+	box-shadow: none;
 }
 
 html.no-touchevents .top-nav-dropdown a:hover {
@@ -2205,7 +2198,7 @@ img.avatar.avatar-l {
 	box-shadow: none;
 	border-radius: 0px;
 	width: 118px;
-    height: 118px;
+	height: 118px;
 }
 
 .zm-profile-header .zm-profile-header-user-detail {
@@ -2481,7 +2474,7 @@ i.zm-profile-header-icon.sina {
 .zu-main-sidebar .zh-footer .zg-wrap {
 	border-top-color: #ddd;
 	letter-spacing: 0;
-	width:auto!important;
+	width: auto!important;
 }
 
 .zm-profile-side-following .item+.item {
