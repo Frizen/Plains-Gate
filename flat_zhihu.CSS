@@ -1478,6 +1478,10 @@ html.no-touch .zm-item-tag:hover, html.no-touch .zm-item-tag-x:hover {
 .side-topic-item {
 	padding: 13px;
 }
+
+.zm-topic-cat-sub p {
+	height: 3.4em;
+}
 }
 
 @-moz-document url-prefix("http://www.zhihu.com/"), url-prefix("https://www.zhihu.com/") {
@@ -1614,7 +1618,6 @@ a.zu-main-feed-fresh-button:hover, a.zu-main-feed-fresh-button:active {
 }
 
 .feed-item+.feed-item, .feed-separator+.feed-item {
-	border-top: 1px solid #ddd;
 	padding: 18px 0 13px 0;
 }
 
@@ -1794,6 +1797,7 @@ html.no-touch .zm-comment-box .load-more:hover {
 
 .zu-autohide {
 	transition: .1s;
+	font-size: 13px;
 }
 
 .feed-item.combine.first-combine .content, .feed-item.combine.first-combine .entry-body {
