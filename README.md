@@ -2,7 +2,7 @@
 
 The title comes from the famous Game/Animation Steins;Gate.
 
-As the description says, this is a flat UI project. I design flat UI for the products I frequently use. That's it.
+As the description says, this is a flat UI project. I design flat UI for the websites I frequently use. That's it.
 
 The first project is [Zhihu](www.zhihu.com). The UI part of the project is almost done, however the interaction part really got some trouble. The interaction of a website is more complicated. It can't be that easy like just write a CSS and get all the problem's done. So, the left part of the project is pause, but you still can use it for the UI modification. 
 
@@ -23,7 +23,7 @@ If you have any problems or advices with this project, comment or send me a mess
 
 项目名 Neta 自著名游戏/改编动画《命运石之门》
 
-取了一个看起来很厉害的名字，但实际上做的东西却异常地简单，只是将一些 UI 非常不符合我个人审美但又每天都不得不打开看看刷刷的互联网产品，给他们换个皮而已。扁平化的设计会是这个项目的主流，所以如果对扁平化设计不感冒的话，那么可以退散了。
+取了一个看起来很厉害的名字，但实际上做的东西很简单，只是将一些 UI 非常不符合我个人审美但又每天都不得不打开看看刷刷的网站，给他们换个皮而已。扁平化的设计会是这个项目的主流，所以如果对扁平化设计不感冒的话，那么可以退散了。
 
 第一个子项目是[知乎](www.zhihu.com) ，目前完成度已经接近 80% 了。UI 方面基本完成，交互上虽然还有很多想要优化的地方，但是绝大多数交互问题已经不是写个 CSS 就能解决得了的，于是暂时搁置。
 
