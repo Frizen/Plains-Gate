@@ -611,7 +611,6 @@ a.toggle-expand {
 
 .zm-meta-panel>a, .zm-meta-panel>span {
 	color: #999;
-	vertical-align: inherit;
 }
 
 .zg-bull {
@@ -1867,7 +1866,6 @@ a.toggle-expand {
 
 .zm-meta-panel>a, .zm-meta-panel>span {
 	color: #999;
-	vertical-align: inherit;
 }
 
 html.no-touch .meta-item:hover .goog-menu-button-caption {
