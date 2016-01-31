@@ -364,7 +364,7 @@ a.zu-main-feed-fresh-button:hover, a.zu-main-feed-fresh-button:active {
 	padding: 18px 0 13px 0;
 }
 
-.zm-comment-box {
+._CommentBox_root_G_1m._CommentBox_bordered_3Fo- {
 	box-shadow: none;
 	border: none;
 	border-top: 1px solid #ddd;
@@ -388,14 +388,14 @@ a.zu-main-feed-fresh-button:hover, a.zu-main-feed-fresh-button:active {
 	border-top: solid 0px #eee;
 }
 
-.zm-comment-box.empty.cannot-comment .zm-comment-box-ft, .zm-comment-box .zm-comment-box-ft {
+._CommentForm_bordered_2isg {
 	background: none;
 	border-radius: 0px;
 	border-top: 0px solid #ddd;
 	border-bottom: 1px solid #ddd;
 }
 
-.zm-comment-form .zm-comment-textarea, .zm-comment-form .zm-comment-editable {
+._InputBox_root_1Xwi {
 	border: 1px solid #ddddFF;
 	border-radius: 3px;
 	box-shadow: none;
@@ -403,7 +403,7 @@ a.zu-main-feed-fresh-button:hover, a.zu-main-feed-fresh-button:active {
 	transition: all .2s ease-in-out;
 }
 
-.zm-comment-form .zm-comment-editable:focus {
+._InputBox_root_1Xwi:focus {
 	border: 1px solid #ddddFF;
 	background-color: #FCFCFF;
 }
@@ -918,7 +918,7 @@ html.no-touch .zg-follow:hover {
 	color: #999;
 }
 
-img.avatar.avatar-l {
+.Avatar--l {
 	width: 118px;
 	height: 118px;
 	border: none;
@@ -1197,7 +1197,7 @@ i.zm-profile-header-icon.sina {
 /*===========================================*/
 
 .zu-noti7-popup .zu-top-nav-live-inner {
-	box-shadow: 0 0px 2px rgba(0, 0, 0, .3);
+	box-shadow: 0 0px 3px rgba(0, 0, 0, .3);
 }
 
 .zm-profile-side-following {
@@ -2174,7 +2174,7 @@ html.no-touch .zg-follow:hover {
 	color: #999;
 }
 
-img.avatar.avatar-l {
+.Avatar--l {
 	width: 118px;
 	height: 118px;
 	border: none;
@@ -2453,7 +2453,7 @@ i.zm-profile-header-icon.sina {
 /*===========================================*/
 
 .zu-noti7-popup .zu-top-nav-live-inner {
-	box-shadow: 0 0px 2px rgba(0, 0, 0, .3);
+	box-shadow: 0 0px 3px rgba(0, 0, 0, .3);
 }
 
 .zm-profile-side-following {
