@@ -1,6 +1,6 @@
 @-moz-document url-prefix("http://www.zhihu.com/"), url-prefix("https://www.zhihu.com/") {
 /*===========================================*/
-/*=================== 全局 =====================*/
+/*================== 全局 ====================*/
 /*===========================================*/
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
@@ -297,6 +297,37 @@ address, blockquote, sup {
 	line-height: 32px;
 	padding-bottom: 2px;
 }
+
+.profile-navbar .item {
+	padding: 12px 30px;
+}
+
+@media (max-width: 1400px) and (min-width: 968px) {
+	.profile-navbar .item {
+		padding: 12px 20px!important;
+	}
+}
+
+#zu-distraction-free-editor .title, #zu-distraction-free-editor .wrapper, #zu-distraction-free-editor .toolbar, #zu-distraction-free-editor .content {
+	width: 1200px;	
+}
+
+#zu-distraction-free-editor .goog-scrollfloater {
+	width: 1200px;
+}
+
+@media (max-width: 1400px) and (min-width: 968px) {
+	#zu-distraction-free-editor .title, #zu-distraction-free-editor .wrapper, #zu-distraction-free-editor .toolbar, #zu-distraction-free-editor .content {
+		width: 800px!important;
+	}
+}	
+
+@media (max-width: 1400px) and (min-width: 968px) {
+	#zu-distraction-free-editor .goog-scrollfloater {
+		width: 800px!important;
+	}
+}	
+
 /*===========================================*/
 /*================== 首页动态 ==================*/
 /*===========================================*/
@@ -594,6 +625,10 @@ html.no-touch .zm-comment-box .load-more:hover {
 	display: none;
 }
 
+.zh-summary {
+	min-height: 26px;
+}
+
 .video-box.thumbonly {
 	display: none;
 }
@@ -667,6 +702,16 @@ html.no-touch .meta-item:hover .goog-menu-button-caption {
 img.avatar.avatar-xs {
 	max-width: none;
 }
+
+.zm-item-rich-text li, .zm-editable-content li, .editable li {
+    list-style-position: inherit;
+    line-height: 3;
+}
+
+#zu-distraction-free-editor .editable {
+    font: 16px/2 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,'Hiragino Sans GB',sans-serif!important;
+}
+
 /* 首页 feed 底部操作
 .zm-meta-panel .zg-bull {
 display: none;
@@ -971,6 +1016,19 @@ html.no-touch .zg-follow:hover {
 	height: 118px;
 	border: none;
 	border-radius: 8px;
+	position: absolute;
+	top: 14px;
+}
+
+.zm-profile-side-columns .link, .zm-profile-side-topics .link, .zm-profile-side-columns .Avatar, .zm-profile-side-topics .Avatar {
+    position: inherit;
+}
+
+.ProfileAvatarEditor {
+    width: 118px;
+    height: 132px;
+    bottom: 46px;
+	box-shadow: none;
 }
 
 .zm-profile-header-avatar-container .zm-entry-head-avatar-edit-button {
@@ -1033,7 +1091,7 @@ i.icon.icon-profile-education {
 	color: #444;
 }
 
-.zm-profile-header-description {
+.zm-profile-header-description.editable-group {
 	border-top: none;
 	margin: 3px -18px 0 -122px;
 	color: #444;
@@ -1109,7 +1167,6 @@ i.icon.icon-profile-education {
 	color: #666;
 	position: relative;
 	top: 1px;
-	padding: 12px 30px;
 }
 
 .profile-navbar .item.home {
@@ -1544,4 +1601,112 @@ html.no-touch .zm-item-tag:hover, html.no-touch .zm-item-tag-x:hover {
 .zm-topic-cat-sub p {
 	height: 3.4em;
 }
+}
+
+@-moz-document url-prefix("http://zhuanlan.zhihu.com/") {
+/*===========================================*/
+/*================ 知乎专栏 ==================*/
+/*===========================================*/
+
+html body, html input, html textarea, html select, html button {
+	font-family: '.SFNSText-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	letter-spacing: 0.02em;
+	text-rendering: optimizeLegibility;
+}
+
+body, input, textarea, select, button {
+	font-size: 15px;
+	line-height: 1.9;
+	color: #444;
+}
+
+a {
+	color: #259;
+	text-decoration: none!important;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+i, em {
+	font-style: normal!important;
+}
+
+strong, b {
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.entry-content {
+    line-height: 2;
+}
+
+.review-comment-panel.fold {
+    height: 60px;
+}
+
+.pop-panel-title {
+    padding: 10px 0px 0px 18px;
+}
+
+.home .card-item, .home .column-card-item, .home .post-card-item {
+    height: 279px;
+}
+
+.review-comment-panel .toggle, .review-comment-panel .close {
+    top: 11px;
+}
+
+/*===========================================*/
+/*================== 宽屏适配 ==================*/
+/*===========================================*/
+
+.receptacle {
+    width: 1080px;
+}
+
+.post-write .toolbar-holder {
+    width: 1080px;
+}
+
+.post-write .entry-content {
+    min-width: 1080px;
+    margin-left: -540px;
+}
+
+.navbar-title-container {
+    width: 1080px;
+    margin-left: -540px;
+}
+
+@media (max-width: 1400px) and (min-width: 968px) {
+	
+	.receptacle {
+    	width: 660px!important;
+	}
+	
+	.post-write .toolbar-holder {
+    	width: 660px!important;
+	}
+	
+	.post-write .entry-content {
+    	min-width: 660px!important;
+   		margin-left: -330px!important;
+	}
+	
+	.navbar-title-container {
+  	    width: 660px!important;
+	    margin-left: -330px!important;
+	}
+}
+
 }
