@@ -76,8 +76,12 @@ h1, h2, h3, h4, h5 {
 }
 
 .zu-main-sidebar {
-	margin: 0 0 0 -306px;
-	width: 306px;
+	margin: 0 0 0 -310px;
+	width: 310px;
+}
+
+.feed-item.combine {
+	margin-left: 48px;
 }
 
 @media (max-width: 1400px) and (min-width: 968px) {
@@ -85,8 +89,11 @@ h1, h2, h3, h4, h5 {
 		width: 960px!important;
 	}
 	.zu-main-sidebar {
-		margin: 0 0 0 -288px!important;
-		width: 288px!important;
+		margin: 0 0 0 -270px!important;
+		width: 270px!important;
+	}
+	.feed-item.combine {
+		margin-left: 0px!important;
 	}
 }
 
@@ -111,7 +118,7 @@ html body, html input, html textarea, html select, html button {
 	font-size: 14px;
 }
 
-.feed-item .zm-item-vote-info, .feed-item .zm-item-answer-author-info {
+.feed-item .zm-item-answer-author-info {
 	font-size: 14px;
 	font-weight: bold;
 }
@@ -201,18 +208,6 @@ address, blockquote, sup {
 @media (max-width: 1400px) and (min-width: 968px) {
 	address, blockquote, sup {
 		line-height: 1.9em!important;
-	}
-}
-
-.zu-main-sidebar {
-	margin: 0 0 0 -288px;
-	width: 288px;
-}
-
-@media (max-width: 1400px) and (min-width: 968px) {
-	.zu-main-sidebar {
-		margin: 0 0 0 -270px!important;
-		width: 270px!important;
 	}
 }
 
@@ -430,6 +425,16 @@ address, blockquote, sup {
 	}
 	.zh-profile-card .upper div.tagline {
 		font-size: 13px!important;
+	}
+}
+
+.zu-top-nav-li {
+	padding: 0 6px;
+}
+
+@media (max-width: 1400px) and (min-width: 968px) {
+	.zu-top-nav-li {
+		padding: 0!important;
 	}
 }
 /*===========================================*/
