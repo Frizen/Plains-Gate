@@ -75,21 +75,122 @@ h1, h2, h3, h4, h5 {
 	width: 1200px;
 }
 
+.zu-main-sidebar {
+	margin: 0 0 0 -306px;
+	width: 306px;
+}
+
 @media (max-width: 1400px) and (min-width: 968px) {
 	.zg-wrap {
 		width: 960px!important;
 	}
+	.zu-main-sidebar {
+		margin: 0 0 0 -288px!important;
+		width: 288px!important;
+	}
 }
 
 html body, html input, html textarea, html select, html button {
+	font-size: 15px;
+	line-height: 1.9;
+}
+
+.feed-item .content h2 {
+	font-size: 16px!important;
+}
+
+.feed-item .entry-body, .feed-item .zm-item-answer {
+	margin-top: 5px;
+}
+
+.feed-main {
+	margin: -3px 0 2px 48px;
+}
+
+.feed-item .author-info, .feed-item .author-info a {
 	font-size: 14px;
-	line-height: 1.8em;
+}
+
+.feed-item .zm-item-vote-info, .feed-item .zm-item-answer-author-info {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.zm-item-rich-text.js-collapse-body, .zm-item-answer-author-info, .zh-summary.summary.clearfix {
+	font-size: 16px;
+	line-height: 1.9;
+}
+
+#zh-question-title>.zm-item-title {
+	font-size: 22px;
+}
+
+.zm-item-vote-info .text {
+	font-size: 14px;
+}
+
+.zm-item-vote-info {
+	margin: 5px 0;
+}
+
+.zm-meta-panel {
+	padding: 3px 0;
+	font-size: 14px;
+}
+
+.feed-item {
+	padding: 21px 0 18px 0;
+}
+
+.zh-summary {
+	padding-top: 3px;
 }
 
 @media (max-width: 1400px) and (min-width: 968px) {
 	html body, html input, html textarea, html select, html button {
 		font-size: 13px!important;
 		line-height: 1.9em!important;
+	}
+	.feed-main {
+		margin: -3px 0 2px 48px!important;
+	}
+	.feed-item .content h2 {
+		font-size: 14px!important;
+	}
+	.feed-item .author-info, .feed-item .author-info a {
+		font-size: 13px!important;
+	}
+	.feed-item .zm-item-vote-info, .feed-item .zm-item-answer-author-info {
+		font-size: 13px!important;
+	}
+	.zm-item-rich-text.js-collapse-body, .zm-item-answer-author-info, .zh-summary.summary.clearfix {
+		font-size: 13px!important;
+		line-height: 1.9!important;
+	}
+	.feed-item .entry-body, .feed-item .zm-item-answer {
+		margin-top: 2px!important;
+	}
+	#zh-question-title>.zm-item-title {
+		font-size: 18px!important;
+	}
+	.zm-item-vote-info .text {
+		font-size: 12px!important;
+	}
+	.zm-item-vote-info {
+		margin: 7px 0!important;
+	}
+	.zm-editable-content {
+		font-size: 13px!important;
+	}
+	.zm-meta-panel {
+		padding: 3px 0!important;
+		font-size: 13px!important;
+	}
+	.feed-item {
+		padding: 18px 0 13px 0;
+	}
+	.zh-summary {
+		padding-top: 0px;
 	}
 }
 
@@ -222,26 +323,6 @@ address, blockquote, sup {
 	}
 }
 
-.feed-item .content h2 {
-	font-size: 15px;
-}
-
-@media (max-width: 1400px) and (min-width: 968px) {
-	.feed-item .content h2 {
-		font-size: 14px!important;
-	}
-}
-
-.feed-item .entry-body, .feed-item .zm-item-answer {
-	margin-top: 2px;
-}
-
-@media (max-width: 1400px) and (min-width: 968px) {
-	.feed-item .entry-body, .feed-item .zm-item-answer {
-		margin-top: 4px!important;
-	}
-}
-
 .feed-item .author-info, .feed-item .author-info a {
 	margin-bottom: 5px!important;
 	color: #444!important;
@@ -309,7 +390,7 @@ address, blockquote, sup {
 }
 
 #zu-distraction-free-editor .title, #zu-distraction-free-editor .wrapper, #zu-distraction-free-editor .toolbar, #zu-distraction-free-editor .content {
-	width: 1200px;	
+	width: 1200px;
 }
 
 #zu-distraction-free-editor .goog-scrollfloater {
@@ -320,14 +401,37 @@ address, blockquote, sup {
 	#zu-distraction-free-editor .title, #zu-distraction-free-editor .wrapper, #zu-distraction-free-editor .toolbar, #zu-distraction-free-editor .content {
 		width: 800px!important;
 	}
-}	
+}
 
 @media (max-width: 1400px) and (min-width: 968px) {
 	#zu-distraction-free-editor .goog-scrollfloater {
 		width: 800px!important;
 	}
-}	
+}
 
+.zh-profile-card {
+	width: 400px;
+}
+
+.zh-profile-card .upper span.name {
+	font-size: 16px;
+}
+
+.zh-profile-card .upper div.tagline {
+	font-size: 14px;
+}
+
+@media (max-width: 1400px) and (min-width: 968px) {
+	.zh-profile-card {
+		width: 380px!important;
+	}
+	.zh-profile-card .upper span.name {
+		font-size: 13px!important;
+	}
+	.zh-profile-card .upper div.tagline {
+		font-size: 13px!important;
+	}
+}
 /*===========================================*/
 /*================== 首页动态 ==================*/
 /*===========================================*/
@@ -349,10 +453,6 @@ address, blockquote, sup {
 
 .zg-section:hover .zm-noti-cleaner-setting {
 	opacity: 1;
-}
-
-.feed-main {
-	margin: -3px 0 2px 48px;
 }
 
 .zu-main-feed-con {
@@ -390,10 +490,6 @@ a.zu-main-feed-fresh-button:hover, a.zu-main-feed-fresh-button:active {
 
 .zg-btn-white.zu-button-more:active {
 	background: #daedf5;
-}
-
-.feed-item+.feed-item, .feed-separator+.feed-item {
-	padding: 18px 0 13px 0;
 }
 
 ._CommentBox_root_G_1m._CommentBox_bordered_3Fo- {
@@ -435,9 +531,9 @@ a.zu-main-feed-fresh-button:hover, a.zu-main-feed-fresh-button:active {
 }
 
 ._CommentBox_pagerBorder_yuO1 {
-    border-top: 1px solid #eee;
-    margin: 0 1em 0 1em;
-    border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	margin: 0 1em 0 1em;
+	border-bottom: 1px solid #eee;
 }
 
 .zm-comment-box.empty.cannot-comment .zm-comment-box-ft, .zm-comment-box .zm-comment-box-ft {
@@ -614,7 +710,6 @@ html.no-touch .zm-comment-box .load-more:hover {
 
 .zu-autohide {
 	transition: .1s;
-	font-size: 13px;
 }
 
 .feed-item.combine.first-combine .content, .feed-item.combine.first-combine .entry-body {
@@ -704,14 +799,21 @@ img.avatar.avatar-xs {
 }
 
 .zm-item-rich-text li, .zm-editable-content li, .editable li {
-    list-style-position: inherit;
-    line-height: 3;
+	list-style-position: inherit;
+	line-height: 3;
 }
 
 #zu-distraction-free-editor .editable {
-    font: 16px/2 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,'Hiragino Sans GB',sans-serif!important;
+	font: 16px/2 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, 'Hiragino Sans GB', sans-serif!important;
 }
 
+span.bio {
+	font-weight: normal;
+}
+
+.SidebarListNav-hint {
+	display: none;
+}
 /* 首页 feed 底部操作
 .zm-meta-panel .zg-bull {
 display: none;
@@ -982,7 +1084,7 @@ html.no-touchevents .top-nav-dropdown a:hover {
 	background: #137AD5;
 }
 
-.zu-top-nav-userinfo .Avatar{
+.zu-top-nav-userinfo .Avatar {
 	left: 15px;
 }
 
@@ -1021,13 +1123,13 @@ html.no-touch .zg-follow:hover {
 }
 
 .zm-profile-side-columns .link, .zm-profile-side-topics .link, .zm-profile-side-columns .Avatar, .zm-profile-side-topics .Avatar {
-    position: inherit;
+	position: inherit;
 }
 
 .ProfileAvatarEditor {
-    width: 118px;
-    height: 132px;
-    bottom: 46px;
+	width: 118px;
+	height: 132px;
+	bottom: 46px;
 	box-shadow: none;
 }
 
@@ -1184,15 +1286,15 @@ i.icon.icon-profile-education {
 }
 
 .profile-navbar .item.home.active {
-    border-color: #ddd;
-    border-width: 1px;
+	border-color: #ddd;
+	border-width: 1px;
 }
 
 .profile-navbar .item .num {
 	margin-left: 4px;
 }
 
-.zm-profile-side-following .item{
+.zm-profile-side-following .item {
 	padding: 2px 55px 8px 0;
 }
 
@@ -1567,10 +1669,6 @@ html.no-touch .zm-item-tag:hover, html.no-touch .zm-item-tag-x:hover {
 	margin-top: 15px;
 }
 
-.zm-meta-panel {
-	padding: 3px 0;
-}
-
 .goog-menu {
 	background: #fff;
 	color: #666;
@@ -1603,7 +1701,7 @@ html.no-touch .zm-item-tag:hover, html.no-touch .zm-item-tag-x:hover {
 }
 }
 
-@-moz-document url-prefix("http://zhuanlan.zhihu.com/") {
+@-moz-document url-prefix("http://zhuanlan.zhihu.com/"), url-prefix("https://zhuanlan.zhihu.com/") {
 /*===========================================*/
 /*================ 知乎专栏 ==================*/
 /*===========================================*/
@@ -1615,7 +1713,7 @@ html body, html input, html textarea, html select, html button {
 }
 
 body, input, textarea, select, button {
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 1.9;
 	color: #444;
 }
@@ -1647,66 +1745,94 @@ h1, h2, h3, h4, h5 {
 }
 
 .entry-content {
-    line-height: 2;
+	line-height: 2;
 }
 
 .review-comment-panel.fold {
-    height: 60px;
+	height: 60px;
 }
 
 .pop-panel-title {
-    padding: 10px 0px 0px 18px;
+	padding: 10px 0px 0px 18px;
 }
 
 .home .card-item, .home .column-card-item, .home .post-card-item {
-    height: 279px;
+	height: 279px;
 }
 
 .review-comment-panel .toggle, .review-comment-panel .close {
-    top: 11px;
+	top: 11px;
 }
-
 /*===========================================*/
 /*================== 宽屏适配 ==================*/
 /*===========================================*/
 
+body, input, textarea, select, button {
+	font-size: 18px;
+	line-height: 2;
+	color: #444;
+}
+
 .receptacle {
-    width: 1080px;
+	width: 1080px;
 }
 
 .post-write .toolbar-holder {
-    width: 1080px;
+	width: 1080px;
 }
 
 .post-write .entry-content {
-    min-width: 1080px;
-    margin-left: -540px;
+	min-width: 1080px;
+	margin-left: -540px;
 }
 
 .navbar-title-container {
-    width: 1080px;
-    margin-left: -540px;
+	width: 1080px;
+	margin-left: -540px;
+}
+
+.post-view .entry-title {
+	font-size: 40px;
+	line-height: 60px;
 }
 
 @media (max-width: 1400px) and (min-width: 968px) {
-	
 	.receptacle {
-    	width: 660px!important;
+		width: 660px!important;
 	}
-	
 	.post-write .toolbar-holder {
-    	width: 660px!important;
+		width: 660px!important;
 	}
-	
 	.post-write .entry-content {
-    	min-width: 660px!important;
-   		margin-left: -330px!important;
+		min-width: 660px!important;
+		margin-left: -330px!important;
 	}
-	
 	.navbar-title-container {
-  	    width: 660px!important;
-	    margin-left: -330px!important;
+		width: 660px!important;
+		margin-left: -330px!important;
+	}
+	body, input, textarea, select, button {
+		font-size: 15px!important;
+	}
+	.post-view .entry-title {
+		font-size: 32px!important;
+		line-height: 45px!important;
 	}
 }
+}
 
+@-moz-document url-prefix("http://www.zhihu.com/question/"), url-prefix("https://www.zhihu.com/question/") {
+/*===========================================*/
+/*================== 宽屏适配 ==================*/
+/*===========================================*/
+
+.zm-meta-panel {
+	padding: 7px 0 13px 0;
+}
+
+@media (max-width: 1400px) and (min-width: 968px) {
+	.zm-meta-panel {
+		padding: 3px 0!important;
+	}
+}
 }
