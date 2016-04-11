@@ -124,7 +124,6 @@ html body, html input, html textarea, html select, html button {
 }
 
 .zm-item-rich-text.js-collapse-body, .zm-item-answer-author-info, .zh-summary.summary.clearfix {
-	font-size: 16px;
 	line-height: 1.9;
 }
 
@@ -436,6 +435,40 @@ address, blockquote, sup {
 	.zu-top-nav-li {
 		padding: 0!important;
 	}
+}
+
+.zm-profile-section-main.zm-profile-section-activity-main .question_link, .zm-profile-section-main.zm-profile-section-activity-main .post-link, h2.zm-profile-question {
+	font-size: 15px;
+}
+
+.skilled-topics .item .content .content-inner a, .skilled-topics .item .content .content-inner p, .zg-gray {
+	font-size: 14px;
+}
+
+.zm-profile-vote-count {
+	height: 42px;
+}
+
+.zm-profile-vote-num {
+	padding: 4px 0 4px;
+}
+
+@media (max-width: 1400px) and (min-width: 968px) {
+	.zm-profile-section-main.zm-profile-section-activity-main .question_link, .zm-profile-section-main.zm-profile-section-activity-main .post-link, h2.zm-profile-question {
+	font-size: 14px!important;
+}
+
+.skilled-topics .item .content .content-inner a, .skilled-topics .item .content .content-inner p, .zg-gray {
+	font-size: 13px!important;
+}
+
+.zm-profile-vote-count {
+	height: 38px!important;
+}
+
+.zm-profile-vote-num {
+	padding: 2px 0 4px!important;
+}
 }
 /*===========================================*/
 /*================== 首页动态 ==================*/
