@@ -100,45 +100,56 @@ body, input, textarea, select, button {
 		font-size: 13px!important;
 	}
 }
-	.feed-item .content h2 {
-		font-size: 16px
-	}
-	.feed-item .entry-body, .feed-item .zm-item-answer {
-		margin-top: 5px;
-	}
-	.feed-main {
-		margin: -5px 0 2px 48px;
-	}
-	.feed-item .author-info, .feed-item .author-info a {
-		font-size: 14px;
-	}
-	.feed-item .zm-item-answer-author-info {
-		font-size: 14px;
-		font-weight: bold;
-	}
-	.zm-item-rich-text.js-collapse-body, .zm-item-answer-author-info, .zh-summary.summary.clearfix {
-		line-height: 1.9;
-	}
-	#zh-question-title>.zm-item-title {
-		font-size: 22px;
-	}
-	.zm-item-vote-info .text {
-		font-size: 14px;
-	}
-	.zm-item-vote-info {
-		margin: 5px 0;
-	}
-	.zm-meta-panel {
-		padding: 3px 0;
-		font-size: 14px;
-	}
-	.feed-item {
-		padding: 21px 0 18px 0;
-	}
-	.zh-summary {
-		padding-top: 3px;
-	}
 
+.feed-item .content h2 {
+	font-size: 16px
+}
+
+.feed-item .entry-body, .feed-item .zm-item-answer {
+	margin-top: 5px;
+}
+
+.feed-main {
+	margin: -5px 0 2px 48px;
+}
+
+.feed-item .author-info, .feed-item .author-info a {
+	font-size: 14px;
+}
+
+.feed-item .zm-item-answer-author-info {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.zm-item-rich-text.js-collapse-body, .zm-item-answer-author-info, .zh-summary.summary.clearfix {
+	line-height: 1.9;
+}
+
+#zh-question-title>.zm-item-title {
+	font-size: 22px;
+}
+
+.zm-item-vote-info .text {
+	font-size: 14px;
+}
+
+.zm-item-vote-info {
+	margin: 5px 0;
+}
+
+.zm-meta-panel {
+	padding: 3px 0;
+	font-size: 14px;
+}
+
+.feed-item {
+	padding: 21px 0 18px 0;
+}
+
+.zh-summary {
+	padding-top: 3px;
+}
 
 @media (max-width: 1400px) and (min-width: 968px) {
 	html body, html input, html textarea, html select, html button {
@@ -199,13 +210,13 @@ address, blockquote, sup {
 }
 
 .feed-source, .feed-source a {
-    font-size: 14px;
+	font-size: 14px;
 }
 
 @media (max-width: 1400px) and (min-width: 968px) {
 	.feed-source, .feed-source a {
-  	  font-size: 13px!important;
-}
+		font-size: 13px!important;
+	}
 }
 
 .zu-main-content-inner {
@@ -279,7 +290,7 @@ address, blockquote, sup {
 @media (max-width: 1400px) and (min-width: 968px) {
 	.zu-top-nav-link {
 		width: 54px!important;
-		font-size: 14px!important;									
+		font-size: 14px!important;
 	}
 }
 
@@ -465,6 +476,16 @@ address, blockquote, sup {
 	}
 	.zm-profile-vote-num {
 		padding: 2px 0 4px!important;
+	}
+}
+
+.zm-editable-editor-field-wrap {
+	padding: 10px 24px;
+}
+
+@media (max-width: 1400px) and (min-width: 968px) {
+	.zm-editable-editor-field-wrap {
+		padding: 8px 10px!important;
 	}
 }
 /*===========================================*/
