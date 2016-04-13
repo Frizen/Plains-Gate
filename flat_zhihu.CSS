@@ -37,11 +37,6 @@ html body, html input, html textarea, html select, html button {
 	text-rendering: optimizeLegibility;
 }
 
-body, input, textarea, select, button {
-	line-height: 1.9;
-	color: #444;
-}
-
 a {
 	color: #259;
 	text-decoration: none!important;
@@ -84,6 +79,12 @@ h1, h2, h3, h4, h5 {
 	margin-left: 48px;
 }
 
+body, input, textarea, select, button {
+	font-size: 15px;
+	line-height: 1.9;
+	color: #444;
+}
+
 @media (max-width: 1400px) and (min-width: 968px) {
 	.zg-wrap {
 		width: 960px!important;
@@ -95,62 +96,49 @@ h1, h2, h3, h4, h5 {
 	.feed-item.combine {
 		margin-left: 0px!important;
 	}
+	body, input, textarea, select, button {
+		font-size: 13px!important;
+	}
 }
+	.feed-item .content h2 {
+		font-size: 16px
+	}
+	.feed-item .entry-body, .feed-item .zm-item-answer {
+		margin-top: 5px;
+	}
+	.feed-main {
+		margin: -5px 0 2px 48px;
+	}
+	.feed-item .author-info, .feed-item .author-info a {
+		font-size: 14px;
+	}
+	.feed-item .zm-item-answer-author-info {
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.zm-item-rich-text.js-collapse-body, .zm-item-answer-author-info, .zh-summary.summary.clearfix {
+		line-height: 1.9;
+	}
+	#zh-question-title>.zm-item-title {
+		font-size: 22px;
+	}
+	.zm-item-vote-info .text {
+		font-size: 14px;
+	}
+	.zm-item-vote-info {
+		margin: 5px 0;
+	}
+	.zm-meta-panel {
+		padding: 3px 0;
+		font-size: 14px;
+	}
+	.feed-item {
+		padding: 21px 0 18px 0;
+	}
+	.zh-summary {
+		padding-top: 3px;
+	}
 
-html body, html input, html textarea, html select, html button {
-	font-size: 15px;
-	line-height: 1.9;
-}
-
-.feed-item .content h2 {
-	font-size: 16px!important;
-}
-
-.feed-item .entry-body, .feed-item .zm-item-answer {
-	margin-top: 5px;
-}
-
-.feed-main {
-	margin: -3px 0 2px 48px;
-}
-
-.feed-item .author-info, .feed-item .author-info a {
-	font-size: 14px;
-}
-
-.feed-item .zm-item-answer-author-info {
-	font-size: 14px;
-	font-weight: bold;
-}
-
-.zm-item-rich-text.js-collapse-body, .zm-item-answer-author-info, .zh-summary.summary.clearfix {
-	line-height: 1.9;
-}
-
-#zh-question-title>.zm-item-title {
-	font-size: 22px;
-}
-
-.zm-item-vote-info .text {
-	font-size: 14px;
-}
-
-.zm-item-vote-info {
-	margin: 5px 0;
-}
-
-.zm-meta-panel {
-	padding: 3px 0;
-	font-size: 14px;
-}
-
-.feed-item {
-	padding: 21px 0 18px 0;
-}
-
-.zh-summary {
-	padding-top: 3px;
-}
 
 @media (max-width: 1400px) and (min-width: 968px) {
 	html body, html input, html textarea, html select, html button {
@@ -208,6 +196,16 @@ address, blockquote, sup {
 	address, blockquote, sup {
 		line-height: 1.9em!important;
 	}
+}
+
+.feed-source, .feed-source a {
+    font-size: 14px;
+}
+
+@media (max-width: 1400px) and (min-width: 968px) {
+	.feed-source, .feed-source a {
+  	  font-size: 13px!important;
+}
 }
 
 .zu-main-content-inner {
@@ -275,11 +273,13 @@ address, blockquote, sup {
 .zu-top-nav-link {
 	width: 60px;
 	height: 46px;
+	font-size: 15px;
 }
 
 @media (max-width: 1400px) and (min-width: 968px) {
 	.zu-top-nav-link {
 		width: 54px!important;
+		font-size: 14px!important;									
 	}
 }
 
@@ -455,20 +455,17 @@ address, blockquote, sup {
 
 @media (max-width: 1400px) and (min-width: 968px) {
 	.zm-profile-section-main.zm-profile-section-activity-main .question_link, .zm-profile-section-main.zm-profile-section-activity-main .post-link, h2.zm-profile-question {
-	font-size: 14px!important;
-}
-
-.skilled-topics .item .content .content-inner a, .skilled-topics .item .content .content-inner p, .zg-gray {
-	font-size: 13px!important;
-}
-
-.zm-profile-vote-count {
-	height: 38px!important;
-}
-
-.zm-profile-vote-num {
-	padding: 2px 0 4px!important;
-}
+		font-size: 14px!important;
+	}
+	.skilled-topics .item .content .content-inner a, .skilled-topics .item .content .content-inner p, .zg-gray {
+		font-size: 13px!important;
+	}
+	.zm-profile-vote-count {
+		height: 38px!important;
+	}
+	.zm-profile-vote-num {
+		padding: 2px 0 4px!important;
+	}
 }
 /*===========================================*/
 /*================== 首页动态 ==================*/
@@ -1813,6 +1810,10 @@ body, input, textarea, select, button {
 
 .receptacle {
 	width: 1080px;
+}
+
+.post-write .title {
+	font-size: 32px!important;
 }
 
 .post-write .toolbar-holder {
