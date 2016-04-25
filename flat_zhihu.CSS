@@ -488,6 +488,16 @@ address, blockquote, sup {
 		padding: 8px 10px!important;
 	}
 }
+
+.zm-item-rich-text li, .zm-editable-content li, .editable li {
+    margin: 0 0px 5px 30px;
+}
+
+@media (max-width: 1400px) and (min-width: 968px) {
+.zm-item-rich-text li, .zm-editable-content li, .editable li {
+    margin: 0 0px 5px!important;
+}
+}
 /*===========================================*/
 /*================== 首页动态 ==================*/
 /*===========================================*/
