@@ -109,9 +109,12 @@ body, input, textarea, select, button {
 	margin-top: 5px;
 }
 
-.feed-main {
-	margin: -5px 0 2px 48px;
-}
+/** Overridden at Line 162-164.
+ *  
+ *  .feed-main {
+ *  	margin: -5px 0 2px 48px;
+ *  }
+**/
 
 .feed-item .author-info, .feed-item .author-info a {
 	font-size: 14px;
@@ -157,7 +160,7 @@ body, input, textarea, select, button {
 		line-height: 1.9em!important;
 	}
 	.feed-main {
-		margin: -3px 0 2px 48px!important;
+		margin: -3px 0 2px 48px;
 	}
 	.feed-item .content h2 {
 		font-size: 14px!important;
