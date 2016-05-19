@@ -75,6 +75,10 @@ h1, h2, h3, h4, h5 {
 	width: 310px;
 }
 
+h1, h2, h3, h4, h5 {
+	font-size: 15px;
+}
+
 .feed-item.combine {
 	margin-left: 48px;
 }
@@ -99,6 +103,9 @@ body, input, textarea, select, button {
 	body, input, textarea, select, button {
 		font-size: 13px!important;
 	}
+	h1, h2, h3, h4, h5 {
+		font-size: 14px!important;
+	}
 }
 
 .feed-item .content h2 {
@@ -109,12 +116,9 @@ body, input, textarea, select, button {
 	margin-top: 5px;
 }
 
-/** Overridden at Line 162-164.
- *  
- *  .feed-main {
- *  	margin: -5px 0 2px 48px;
- *  }
-**/
+.feed-main {
+	margin: -5px 0 2px 48px;
+}
 
 .feed-item .author-info, .feed-item .author-info a {
 	font-size: 14px;
@@ -160,7 +164,10 @@ body, input, textarea, select, button {
 		line-height: 1.9em!important;
 	}
 	.feed-main {
-		margin: -3px 0 2px 48px;
+		margin-top: -3px;
+	}
+	.feed-main {
+		margin-bottom: 2px;
 	}
 	.feed-item .content h2 {
 		font-size: 14px!important;
@@ -493,13 +500,13 @@ address, blockquote, sup {
 }
 
 .zm-item-rich-text li, .zm-editable-content li, .editable li {
-    margin: 0 0px 5px 30px;
+	margin: 0 0px 5px 30px;
 }
 
 @media (max-width: 1400px) and (min-width: 968px) {
-.zm-item-rich-text li, .zm-editable-content li, .editable li {
-    margin: 0 0px 5px!important;
-}
+	.zm-item-rich-text li, .zm-editable-content li, .editable li {
+		margin: 0 0px 5px!important;
+	}
 }
 /*===========================================*/
 /*================== 首页动态 ==================*/
