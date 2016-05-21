@@ -305,14 +305,21 @@ address, blockquote, sup {
 }
 
 .zu-noti7-popup.zu-top-nav-live {
-	left: 94px;
+	left: 136px;
 	top: 50px;
 	font-size: 13px;
 }
 
+.zu-top-nav-count {
+	left: 45px;
+}
+
 @media (max-width: 1400px) and (min-width: 968px) {
 	.zu-noti7-popup.zu-top-nav-live {
-		left: 52px!important;
+		left: 51px!important;
+	}
+	.zu-top-nav-count {
+		left: 31px!important;
 	}
 }
 
