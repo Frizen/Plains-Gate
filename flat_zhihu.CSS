@@ -927,7 +927,25 @@ display: inline!important;
 	background-color: transparent;
 }
 
-.zm-side-nav-link.active, html.no-touch .zm-side-nav-roundtable .follow-link:hover+.zm-side-nav-link, html.no-touch .zm-side-nav-link:hover {
+.zm-side-nav-link.active, html.no-touchevents .zm-side-nav-link:hover {
+	color: #259;
+	border-left: 3px solid #ddddff;
+	margin-left: 10px;
+	background-color: #E4EAFF;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.SidebarListNav-itemLink {
+	margin-bottom: 3px;
+	display: block;
+	line-height: 31px;
+	color: #666;
+	border-radius: 3px;
+	background-color: transparent;
+}
+
+.SidebarListNav-itemLink:active, html.no-touchevents .SidebarListNav-listItem .follow-link:hover+.SidebarListNav-itemLink, html.no-touchevents .SidebarListNav-itemLink:hover {
 	color: #259;
 	border-left: 3px solid #ddddff;
 	margin-left: 10px;
