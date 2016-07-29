@@ -79,10 +79,6 @@ h1, h2, h3, h4, h5 {
 	font-size: 15px;
 }
 
-.feed-item.combine {
-	margin-left: 48px;
-}
-
 body, input, textarea, select, button {
 	font-size: 15px;
 	line-height: 1.9;
@@ -96,9 +92,6 @@ body, input, textarea, select, button {
 	.zu-main-sidebar {
 		margin: 0 0 0 -270px!important;
 		width: 270px!important;
-	}
-	.feed-item.combine {
-		margin-left: 0px!important;
 	}
 	body, input, textarea, select, button {
 		font-size: 13px!important;
@@ -193,9 +186,6 @@ body, input, textarea, select, button {
 	}
 	.zm-item-vote-info {
 		margin: 7px 0!important;
-	}
-	.zm-editable-content {
-		font-size: 13px!important;
 	}
 	.zm-meta-panel {
 		padding: 3px 0!important;
@@ -328,6 +318,16 @@ address, blockquote, sup {
 	margin-top: -6px;
 }
 
+.editable {
+	font-size: 14px;
+}
+
+@media (max-width: 1400px) and (min-width: 968px) {
+	.editable {
+		font-size: 13px!important;
+	}
+}
+
 @media (max-width: 1400px) and (min-width: 968px) {
 	.feed-item .time {
 		font-size: 13px!important;
@@ -403,11 +403,15 @@ address, blockquote, sup {
 
 .profile-navbar .item {
 	padding: 12px 30px;
+	font-size: 15px;
+	line-height: 30px;
 }
 
 @media (max-width: 1400px) and (min-width: 968px) {
 	.profile-navbar .item {
 		padding: 12px 20px!important;
+		font-size: 14px;
+		line-height: 22px;
 	}
 }
 
@@ -481,6 +485,12 @@ address, blockquote, sup {
 	padding: 4px 0 4px;
 }
 
+.HomeEntry-box {
+	margin-left: 0px;
+	border: 0px solid #f0f0f0;
+	background: #f9f9f9;
+}
+
 @media (max-width: 1400px) and (min-width: 968px) {
 	.zm-profile-section-main.zm-profile-section-activity-main .question_link, .zm-profile-section-main.zm-profile-section-activity-main .post-link, h2.zm-profile-question {
 		font-size: 14px!important;
@@ -507,17 +517,128 @@ address, blockquote, sup {
 }
 
 .zm-item-rich-text li, .zm-editable-content li, .editable li {
-	margin: 0 0px 5px 30px;
+	margin: 8px 5px 5px 30px;
 }
 
 @media (max-width: 1400px) and (min-width: 968px) {
 	.zm-item-rich-text li, .zm-editable-content li, .editable li {
-		margin: 0 0px 5px!important;
+		margin: 8px 5px 5px 30px!important;
 	}
+}
+
+blockquote {
+	padding: 0 0 0 16px;
+}
+
+.Avatar--l {
+	width: 150px;
+	height: 150px;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+}
+
+.zm-profile-header-main .top .bio {
+	font-size: 15px;
+}
+
+@media (max-width: 1400px) and (min-width: 968px) {
+	.Avatar--l {
+		width: 136px!important;
+		height: 136px!important;
+	}
+	.ProfileAvatarEditor {
+		width: 136px!important;
+		height: 136px!important;
+	}
+	.zm-profile-header-info {
+		margin-left: 120px!important;
+		padding-top: 0px;
+	}
+	.zm-profile-header-description.editable-group {
+		margin: 10px -18px 0px -122px!important;
+	}
+	.zm-profile-header .items {
+		margin-left: 40px!important;
+	}
+	.title-section.ellipsis {
+		margin-left: 46px!important;
+	}
+	.zm-profile-header-main .top .bio {
+		font-size: 13px;
+	}
+	.zm-profile-side-columns .link, .zm-profile-side-topics .link, .zm-profile-side-columns .Avatar, .zm-profile-side-topics .Avatar {
+		height: 34px!important;
+		width: 34px!important;
+	}
+}
+
+.zm-profile-header-main {
+	padding: 12px 18px 0px 18px;
+}
+
+.zm-profile-header-description.editable-group {
+	border-top: none;
+	margin: 18px -18px 0px -132px;
+	color: #444;
+}
+
+.zm-profile-header-description {
+	padding: 0 0 6px 0;
+}
+
+.zm-profile-header .zm-profile-header-user-describe .item+.item {
+	margin-top: 5px;
+}
+
+.zm-profile-header-marked {
+	padding: 6px 18px 14px 18px;
+	border-top: none;
+}
+
+.ProfileAvatarEditor {
+	width: 150px;
+	height: 150px;
+	box-shadow: none;
+	border-radius: 10px;
+}
+
+.zm-profile-header .items {
+	margin-left: 50px;
+	min-height: 78px;
+	color: #444;
+}
+
+.title-section.ellipsis {
+	margin-left: 65px;
+	max-width: 380px;
+	color: #666;
+	font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.zm-profile-header-info {
+	margin-left: 132px;
+	padding-top: 5px;
+}
+
+.zg-link-litblue {
+	font-size: inherit;
+}
+
+#zh-fav-list-side-related .zm-item-title {
+	font-size: inherit;
 }
 /*===========================================*/
 /*================== 首页动态 ==================*/
 /*===========================================*/
+
+.HomeEntry-boxArrow {
+	display: none;
+}
+
+.HomeEntry-avatar {
+	display: none;
+}
 
 .feed-item {
 	padding: 18px 0 13px 0;
@@ -630,6 +751,8 @@ a.zu-main-feed-fresh-button:hover, a.zu-main-feed-fresh-button:active {
 	border: 1px solid #ddddFF;
 	border-radius: 3px;
 	box-shadow: none;
+	color: #333;
+	line-height: 1.8;
 	background-color: #F9F9FF;
 	transition: all .2s ease-in-out;
 }
@@ -883,7 +1006,6 @@ img.avatar.avatar-xs {
 
 .zm-item-rich-text li, .zm-editable-content li, .editable li {
 	list-style-position: inherit;
-	line-height: 3;
 }
 
 #zu-distraction-free-editor .editable {
@@ -939,7 +1061,6 @@ display: inline!important;
 .SidebarListNav-itemLink {
 	margin-bottom: 3px;
 	display: block;
-	line-height: 31px;
 	color: #666;
 	border-radius: 3px;
 	background-color: transparent;
@@ -952,6 +1073,14 @@ display: inline!important;
 	background-color: #E4EAFF;
 	border-radius: 3px;
 	text-decoration: none;
+}
+
+.SidebarListNav-sideLink {
+	opacity: 0;
+}
+
+.SidebarListNav:hover .SidebarListNav-sideLink {
+	opacity: 1;
 }
 
 .zu-main-sidebar h3, .zm-side-section h3, .zu-main-sidebar h2, .zm-side-section h2 {
@@ -1056,6 +1185,7 @@ a.shameimaru-link:hover {
 	box-shadow: none;
 	text-shadow: none;
 	border-radius: 3px;
+	display: none;
 }
 
 .zu-top-add-question:hover {
@@ -1203,10 +1333,6 @@ html.no-touch .zg-follow:hover {
 	color: #698ebf;
 }
 
-.zm-profile-header-info {
-	margin-left: 122px;
-}
-
 .zm-profile-header {
 	border: none;
 	box-shadow: none;
@@ -1214,24 +1340,8 @@ html.no-touch .zg-follow:hover {
 	color: #999;
 }
 
-.Avatar--l {
-	width: 118px;
-	height: 118px;
-	border: none;
-	border-radius: 8px;
-	position: absolute;
-	top: 14px;
-}
-
 .zm-profile-side-columns .link, .zm-profile-side-topics .link, .zm-profile-side-columns .Avatar, .zm-profile-side-topics .Avatar {
 	position: inherit;
-}
-
-.ProfileAvatarEditor {
-	width: 118px;
-	height: 132px;
-	bottom: 46px;
-	box-shadow: none;
 }
 
 .zm-profile-header-avatar-container .zm-entry-head-avatar-edit-button {
@@ -1260,14 +1370,6 @@ html.no-touch .zg-follow:hover {
 	display: none;
 }
 
-.title-section.ellipsis {
-	position: relative;
-	left: 148px;
-	max-width: 380px;
-	color: #666;
-	font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-}
-
 h3.ellipsis {
 	left: 0px;
 }
@@ -1287,27 +1389,9 @@ i.icon.icon-profile-education {
 	color: #444;
 }
 
-.zm-profile-header .items {
-	position: relative;
-	left: 24px;
-	min-height: 78px;
-	color: #444;
-}
-
-.zm-profile-header-description.editable-group {
-	border-top: none;
-	margin: 3px -18px 0 -122px;
-	color: #444;
-}
-
 .zm-profile-header-operation {
 	padding: 0 18px;
 	margin: 0 0 16px 0;
-	border-top: none;
-}
-
-.zm-profile-header-marked {
-	padding: 0px 18px 15px 18px;
 	border-top: none;
 }
 
