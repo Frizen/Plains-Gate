@@ -4,14 +4,14 @@
 /*===========================================*/
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
-	.icon, i[class^=z-icon-], .modal-dialog-title-close, .goog-option-selected .goog-menuitem-checkbox, .zg-content-img-icon, .zg-content-video-icon, .tr-icon, .tr-inline-icon, .zg-icon, .icon-external, .feed-item .ignore, .side-topic-item .up, .side-topic-item .delete, .zu-edit-button-icon, .zg-blue-edit, .zm-add-question-detail-icon, .zh-hovercard-arrow, .zu-top-live-icon, .zm-profile-details-items .zm-profile-tag-btn, .zm-item-top-btn, .zm-profile-icon, .zm-profile-header-icon, .zm-profile-empty-icon, .zu-global-notify-icon, .zu-global-notify-close, .zm-modal-dialog-guide-title-msg, .zm-modal-dialog-guide-title-dropdown, .zm-noti7-popup-tab-item .icon, .zu-noti7-popup .zu-top-live-icon, .icon-info, .icon-green-check, .icon-big-arrow-left, .icon-big-arrow-right, .icon-weibo, .icon-qzone, .icon-weibo-corner, .icon-big-white-sina, .icon-big-white-qq, .icon-big-white-mail, .icon-sign-arrow {
+	i[class^=z-icon-], .modal-dialog-title-close, .goog-option-selected .goog-menuitem-checkbox, .zg-content-img-icon, .zg-content-video-icon, .tr-icon, .tr-inline-icon, .zg-icon, .icon-external, .ignore, .side-topic-item .up, .side-topic-item .delete, .zu-edit-button-icon, .zg-blue-edit, .zm-add-question-detail-icon, .zh-hovercard-arrow, .zu-top-live-icon, .zm-profile-details-items .zm-profile-tag-btn, .zm-item-top-btn, .zm-profile-icon, .zm-profile-header-icon, .zm-profile-empty-icon, .zu-global-notify-icon, .zu-global-notify-close, .zm-modal-dialog-guide-title-msg, .zm-modal-dialog-guide-title-dropdown, .zm-noti7-popup-tab-item .icon, .zu-noti7-popup .zu-top-live-icon, .icon-info, .icon-green-check, .icon-big-arrow-left, .icon-big-arrow-right, .icon-weibo, .icon-qzone, .icon-weibo-corner, .icon-big-white-sina, .icon-big-white-qq, .icon-big-white-mail, .icon-sign-arrow {
 		background-image: url(http://frizen.qiniudn.com/sprites-1.1.2@2x.png);
 		background-size: 308px 250px;
 	}
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), not all {
-	.z-ico-wechat-right-panel, .z-ico-show-password, .z-ico-hide-password, .z-ico-weibo, .z-ico-wechat-unlogin-page, .z-ico-weibo-share, .z-ico-wechat-share, .z-ico-green-check, .z-ico-gray-check, .z-ico-daily-share, .z-ico-qq, .z-ico-wechat, .z-ico-textedit, .z-ico-shameimaru-close, .z-ico-left, .z-ico-close, .z-ico-community:hover, .z-ico-community {
+	.z-ico-wechat-right-panel, .z-ico-show-password, .z-ico-hide-password, .z-ico-weibo, .z-ico-wechat-unlogin-page, .z-ico-weibo-share, .z-ico-wechat-share, .z-ico-green-check, .z-ico-gray-check, .z-ico-daily-share, .z-ico-qq, .z-ico-wechat, .z-ico-textedit, .z-ico-shameimaru-close, .z-ico-left, .z-ico-close {
 		background-image: url(http://www.zhihu.com/static/img/compiled/icons@2x_4ecd3000b1.png);
 		background-size: 109px 76px;
 	}
@@ -25,7 +25,7 @@
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), not all {
-	.z-ico-play-video, .z-ico-wechat-right-panel, .z-ico-show-password, .z-ico-hide-password, .z-ico-weibo, .z-ico-wechat-unlogin-page, .z-ico-weibo-share, .z-ico-wechat-share, .z-ico-green-check, .z-ico-gray-check, .z-ico-daily-share, .z-ico-qq, .z-ico-wechat, .z-ico-textedit, .z-ico-shameimaru-close, .z-ico-left, .z-ico-close, .z-ico-community:hover, .z-ico-community, .z-ico-video, .z-ico-extern-gray, .z-ico-extern-blue {
+	.z-ico-play-video, .z-ico-wechat-right-panel, .z-ico-show-password, .z-ico-hide-password, .z-ico-weibo, .z-ico-wechat-unlogin-page, .z-ico-weibo-share, .z-ico-wechat-share, .z-ico-green-check, .z-ico-gray-check, .z-ico-daily-share, .z-ico-qq, .z-ico-wechat, .z-ico-textedit, .z-ico-shameimaru-close, .z-ico-left, .z-ico-close, .z-ico-video, .z-ico-extern-gray, .z-ico-extern-blue {
 		background-image: url(http://www.zhihu.com/static/revved/img/compiled/icons@2x_e9908158f6.7089d725.png);
 		background-size: 108px 93px;
 	}
@@ -70,6 +70,16 @@ h1, h2, h3, h4, h5 {
 	width: 1200px;
 }
 
+@media (max-width: 1024px) and (min-width: 360px) {
+	.zu-main {
+		padding: 70px 0 50px!important;
+	}
+}
+
+.zu-main {
+	padding: 25px 0 50px;
+}
+
 .zu-main-sidebar {
 	margin: 0 0 0 -310px;
 	width: 310px;
@@ -85,13 +95,41 @@ body, input, textarea, select, button {
 	color: #444;
 }
 
-@media (max-width: 1400px) and (min-width: 968px) {
+@media (max-width: 1400px) and (min-width: 961px) {
 	.zg-wrap {
 		width: 960px!important;
+	}
+	.zu-main.with-indention-votebar .zu-main-content-inner {
+		margin-left: 48px!important;
 	}
 	.zu-main-sidebar {
 		margin: 0 0 0 -270px!important;
 		width: 270px!important;
+	}
+	body, input, textarea, select, button {
+		font-size: 13px!important;
+	}
+	h1, h2, h3, h4, h5 {
+		font-size: 14px!important;
+	}
+}
+
+@media (max-width: 960px) {
+	.zg-wrap {
+		width: auto!important;
+	}
+	.zu-main.with-indention-votebar .zu-main-content-inner {
+		margin-left: 48px!important;
+	}
+	.zu-main-sidebar {
+		width: 270px!important;
+	}
+	.zu-top-search-form {
+		width: 240px!important;
+	}
+	.zu-top-nav-link {
+		width: auto!important;
+		padding: 0 10px!important;
 	}
 	body, input, textarea, select, button {
 		font-size: 13px!important;
@@ -238,6 +276,16 @@ address, blockquote, sup {
 @media (max-width: 1400px) and (min-width: 968px) {
 	.zm-side-nav-link {
 		height: 31px!important;
+	}
+}
+
+.zm-profile-header-main .top {
+	margin-left: 185px;
+}
+
+@media (max-width: 1400px) and (min-width: 968px) {
+	.zm-profile-header-main .top {
+		margin-left: 162px!important;
 	}
 }
 
@@ -632,6 +680,14 @@ blockquote {
 /*================== 首页动态 ==================*/
 /*===========================================*/
 
+.feed-item-l {
+	display: none;
+}
+
+.feed-item-p {
+	display: none;
+}
+
 .HomeEntry-boxArrow {
 	display: none;
 }
@@ -1018,6 +1074,10 @@ span.bio {
 
 .SidebarListNav-hint {
 	display: none;
+}
+
+.zm-form-table-medium>.zm-form-table-head {
+	width: auto;
 }
 /* 首页 feed 底部操作
 .zm-meta-panel .zg-bull {
@@ -2023,5 +2083,283 @@ body, input, textarea, select, button {
 	.zm-meta-panel {
 		padding: 3px 0!important;
 	}
+}
+}
+
+@-moz-document url-prefix("https://www.zhihu.com/people/frizen/"), url-prefix("http://www.zhihu.com/people/frizen/") {
+.Card {
+	border-radius: 6px;
+}
+
+.ProfileHeader .Card {
+	background: transparent;
+	min-height: 360px;
+	border-radius: 7px;
+}
+
+.ProfileHeader-wrapper {
+	top: 190px;
+	background: transparent;
+}
+
+.UserCover {
+	position: absolute;
+	height: 360px!important;
+	width: 998.5px;
+	background: none;
+	background-image: url(http://frizen.qiniudn.com/reina_zh_ban6.jpg);
+	background-position: bottom;
+	opacity: 0.75;
+	border-radius: 6px;
+}
+
+.UserCover-image, .UserCover-image img {
+	display: none;
+}
+
+.UserAvatar, .UserAvatar-inner {
+	width: 200px!important;
+	height: 200px!important;
+	border: 0px solid #fff;
+}
+
+.ProfileHeader-avatar {
+	top: -95px!important;
+	left: 680px!important;
+	border: 6px solid #fff;
+	border-radius: 10px;
+}
+
+.ProfileHeader-buttons {
+	position: absolute;
+	right: 300px;
+	;
+	bottom: 43px;
+}
+
+button.Button.FollowButton.Button--primary.Button--blue {
+	color: #8590a6;
+	background: transparent;
+	border: 1px solid #8590a6;
+}
+
+.UserCoverEditor-simpleEditButton {
+	visibility: hidden;
+}
+
+.ProfileButtonGroup .Button+.Button {
+	border: 1px solid #8590a6;
+}
+
+.ProfileHeader-content {
+	padding-top: 8px;
+	padding-left: 0px;
+}
+
+.ProfileHeader-name {
+	font-weight: 600;
+	position: absolute;
+	right: 300px;
+	bottom: -24px;
+}
+
+.ProfileHeader-headline {
+	position: absolute;
+	right: 380px;
+	bottom: -24px;
+}
+
+.ProfileHeader-contentBody {
+	float: right;
+	margin-top: 15px;
+	margin-right: -58px;
+}
+
+.ProfileHeader-contentFooter {
+	margin-top: 120px;
+}
+
+svg.Icon.Icon--male {
+	visibility: hidden;
+}
+
+button.Button.ProfileHeader-expandButton.Button--plain {
+	visibility: hidden;
+}
+
+.ProfileHeader-contentHead .FollowStatus {
+	visibility: hidden;
+}
+
+button.Button.FollowButton.Button--primary.Button--grey {
+	background: transparent;
+	color: #8590a6;
+	border: 1px solid #8590a6;
+}
+
+button.Button.FollowButton.Button--primary.Button--grey:hover {
+	color: #fff;
+	background: #ccd8e1;
+	border: 1px solid #ccd8e1;
+}
+
+.UserAvatarEditor-maskInner {
+	border: 0px solid #fff;
+}
+}
+
+@-moz-document url-prefix("https://www.zhihu.com/people/irinwind/"), url-prefix("http://www.zhihu.com/people/irinwind/") {
+.Card {
+	border-radius: 6px;
+}
+
+.ProfileHeader .Card {
+	background: transparent;
+	min-height: 360px;
+	border-radius: 7px;
+}
+
+.ProfileHeader-wrapper {
+	top: 190px;
+	background: transparent;
+}
+
+.UserCover {
+	position: absolute;
+	height: 360px!important;
+	width: 998.5px;
+	background: none;
+	background-image: url(http://frizen.qiniudn.com/kumiko_zh_ban6.jpg);
+	background-position: bottom;
+	opacity: 0.75;
+	border-radius: 6px;
+}
+
+.UserCover-image, .UserCover-image img {
+	display: none;
+}
+
+.UserAvatar, .UserAvatar-inner {
+	width: 200px!important;
+	height: 200px!important;
+}
+
+.ProfileHeader-avatar {
+	top: -95px!important;
+	left: 680px!important;
+	border: 6px solid #fff;
+	border-radius: 10px;
+}
+
+.ProfileHeader-buttons {
+	position: absolute;
+	right: 300px;
+	;
+	bottom: 20px;
+}
+
+button.Button.FollowButton.Button--primary.Button--blue {
+	color: #8590a6;
+	background: transparent;
+	border: 1px solid #8590a6;
+}
+
+.UserCoverEditor-simpleEditButton {
+	visibility: hidden;
+}
+
+.ProfileButtonGroup .Button+.Button {
+	border: 1px solid #8590a6;
+}
+
+.ProfileHeader-content {
+	padding-top: 0px;
+	padding-left: 0px;
+}
+
+.ProfileHeader-name {
+	font-weight: 600;
+	position: absolute;
+	right: 300px;
+	bottom: -24px;
+}
+
+.ProfileHeader-headline {
+	position: absolute;
+	right: 380px;
+	bottom: -24px;
+}
+
+.ProfileHeader-contentBody {
+	float: right;
+	margin-top: 15px;
+	margin-right: 94px;
+}
+
+.ProfileHeader-contentFooter {
+	margin-top: 120px;
+}
+
+svg.Icon.Icon--male {
+	visibility: hidden;
+}
+
+button.Button.ProfileHeader-expandButton.Button--plain {
+	visibility: hidden;
+}
+
+.ProfileHeader-contentHead .FollowStatus {
+	visibility: hidden;
+}
+
+button.Button.FollowButton.Button--primary.Button--grey {
+	background: transparent;
+	color: #8590a6;
+	border: 1px solid #8590a6;
+}
+
+button.Button.FollowButton.Button--primary.Button--grey:hover {
+	color: #fff;
+	background: #ccd8e1;
+	border: 1px solid #ccd8e1;
+}
+
+.UserAvatarEditor-maskInner {
+	border: 0px solid #fff;
+}
+}
+
+@-moz-document url-prefix("https://www.zhihu.com/people/") {
+.Card {
+	border-radius: 6px;
+}
+
+.UserCover-image, .UserCover-image img {
+	opacity: 0.2;
+	-webkit-transition: -webkit-opacity 0.5s ease-out;
+	transition: -webkit-opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out, -webkit-transform 6s ease-out;
+	border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.UserCover:hover .UserCover-image {
+	opacity: 1;
+}
+
+.UserCover {
+	height: 100px;
+	border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.UserCover:hover {
+	height: 240px;
+}
+
+.UserCover--colorBlock {
+	height: 100px!important;
+	background: #fff;
 }
 }
