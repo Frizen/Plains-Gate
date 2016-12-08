@@ -5,29 +5,8 @@
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
 	i[class^=z-icon-], .modal-dialog-title-close, .goog-option-selected .goog-menuitem-checkbox, .zg-content-img-icon, .zg-content-video-icon, .tr-icon, .tr-inline-icon, .zg-icon, .icon-external, .ignore, .side-topic-item .up, .side-topic-item .delete, .zu-edit-button-icon, .zg-blue-edit, .zm-add-question-detail-icon, .zh-hovercard-arrow, .zu-top-live-icon, .zm-profile-details-items .zm-profile-tag-btn, .zm-item-top-btn, .zm-profile-icon, .zm-profile-header-icon, .zm-profile-empty-icon, .zu-global-notify-icon, .zu-global-notify-close, .zm-modal-dialog-guide-title-msg, .zm-modal-dialog-guide-title-dropdown, .zm-noti7-popup-tab-item .icon, .zu-noti7-popup .zu-top-live-icon, .icon-info, .icon-green-check, .icon-big-arrow-left, .icon-big-arrow-right, .icon-weibo, .icon-qzone, .icon-weibo-corner, .icon-big-white-sina, .icon-big-white-qq, .icon-big-white-mail, .icon-sign-arrow {
-		background-image: url(http://frizen.qiniudn.com/sprites-1.1.2@2x.png);
+		background-image: url(https://ohupjrb3o.qnssl.com/sprites-1.1.2@2x.png);
 		background-size: 308px 250px;
-	}
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 2), not all {
-	.z-ico-wechat-right-panel, .z-ico-show-password, .z-ico-hide-password, .z-ico-weibo, .z-ico-wechat-unlogin-page, .z-ico-weibo-share, .z-ico-wechat-share, .z-ico-green-check, .z-ico-gray-check, .z-ico-daily-share, .z-ico-qq, .z-ico-wechat, .z-ico-textedit, .z-ico-shameimaru-close, .z-ico-left, .z-ico-close {
-		background-image: url(http://www.zhihu.com/static/img/compiled/icons@2x_4ecd3000b1.png);
-		background-size: 109px 76px;
-	}
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
-	.zg-icon-rare {
-		background-image: url(http://www.zhihu.com/static/img/sprites-rare-0.1.png);
-		background-size: 256px 30px;
-	}
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 2), not all {
-	.z-ico-play-video, .z-ico-wechat-right-panel, .z-ico-show-password, .z-ico-hide-password, .z-ico-weibo, .z-ico-wechat-unlogin-page, .z-ico-weibo-share, .z-ico-wechat-share, .z-ico-green-check, .z-ico-gray-check, .z-ico-daily-share, .z-ico-qq, .z-ico-wechat, .z-ico-textedit, .z-ico-shameimaru-close, .z-ico-left, .z-ico-close, .z-ico-video, .z-ico-extern-gray, .z-ico-extern-blue {
-		background-image: url(http://www.zhihu.com/static/revved/img/compiled/icons@2x_e9908158f6.7089d725.png);
-		background-size: 108px 93px;
 	}
 }
 
@@ -2107,7 +2086,7 @@ body, input, textarea, select, button {
 	height: 360px!important;
 	width: 998.5px;
 	background: none;
-	background-image: url(http://frizen.qiniudn.com/reina_zh_ban6.jpg);
+	background-image: url(https://ohupjrb3o.qnssl.com/reina_zh_ban6.jpg);
 	background-position: bottom;
 	opacity: 0.75;
 	border-radius: 6px;
@@ -2229,7 +2208,7 @@ button.Button.FollowButton.Button--primary.Button--grey:hover {
 	height: 360px!important;
 	width: 998.5px;
 	background: none;
-	background-image: url(http://frizen.qiniudn.com/kumiko_zh_ban6.jpg);
+	background-image: url(https://ohupjrb3o.qnssl.com/kumiko_zh_ban6.jpg);
 	background-position: bottom;
 	opacity: 0.75;
 	border-radius: 6px;
@@ -2341,7 +2320,7 @@ button.Button.FollowButton.Button--primary.Button--grey:hover {
 	transition: opacity 0.5s ease-out;
 	transition: opacity 0.5s ease-out, -webkit-transform 6s ease-out;
 	border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
 }
 
 .UserCover:hover .UserCover-image {
@@ -2351,7 +2330,20 @@ button.Button.FollowButton.Button--primary.Button--grey:hover {
 .UserCover {
 	height: 100px;
 	border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.UserCoverEditor {
+	height: 160px
+}
+
+.UserCoverGuide-item {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.UserCoverGuide-dialog {
+	box-shadow: 0 1px 3px rgba(0, 37, 55, .2);
 }
 
 .UserCover:hover {
