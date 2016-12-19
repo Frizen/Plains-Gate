@@ -2081,6 +2081,10 @@ body, input, textarea, select, button {
 	background: transparent;
 }
 
+.UserCoverEditor {
+	height: 0px!important;
+}
+
 .UserCover {
 	position: absolute;
 	height: 360px!important;
@@ -2090,6 +2094,7 @@ body, input, textarea, select, button {
 	background-position: bottom;
 	opacity: 0.75;
 	border-radius: 6px;
+	transition: height 0s!important;
 }
 
 .UserCover-image, .UserCover-image img {
@@ -2203,6 +2208,10 @@ button.Button.FollowButton.Button--primary.Button--grey:hover {
 	background: transparent;
 }
 
+.UserCoverEditor {
+	height: 0px!important;
+}
+
 .UserCover {
 	position: absolute;
 	height: 360px!important;
@@ -2212,6 +2221,7 @@ button.Button.FollowButton.Button--primary.Button--grey:hover {
 	background-position: bottom;
 	opacity: 0.75;
 	border-radius: 6px;
+    transition: height 0s!important;
 }
 
 .UserCover-image, .UserCover-image img {
@@ -2353,5 +2363,105 @@ button.Button.FollowButton.Button--primary.Button--grey:hover {
 .UserCover--colorBlock {
 	height: 100px!important;
 	background: #fff;
+}
+
+.Profile-followStatus {
+    width: 49%;
+}
+
+.ContentItem-content {
+	font-size: 14px;
+}
+
+.ContentItem-title {
+	font-size: 15px!important;
+	line-height: 1.0;
+	font-weight: 600;
+}
+
+.AuthorInfo-name {
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.6;
+}
+
+.AuthorInfo-badge {
+	margin-top: 2px;
+	line-height: 1.6;
+}
+
+.Profile-lightItem, .Profile-lightList {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.ProfileHeader-name {
+	font-weight: 600;
+}
+
+.ProfileHeader-headline {
+	font-weight: 300;
+}
+
+.ContentItem-content.is-collapsed:hover {
+    color: #444;
+}
+
+.Tabs-link {
+    border-bottom: 3px solid transparent;
+}
+
+.Tabs-link:hover {
+    border-bottom: 3px solid #259;
+}
+
+.Tabs-link.is-active:after {
+    bottom: -3px;
+    background: #259;
+}
+
+.Tabs-link:hover {
+    color: #259;
+}
+
+.Tabs-link:hover .Tabs-meta {
+    color: #259;
+}
+
+.Tabs-link.is-active {
+    font-weight: 600;
+}
+
+.ContentItem-cover {
+    display: none;
+}
+
+a {
+	color: inherit;
+}
+
+.Profile-sideColumnItemLink:hover {
+    color: #259;
+}
+
+.Profile-followStatus:hover .Profile-followStatusValue {
+    color: #259;
+}
+
+.Profile-followStatusValue:hover {
+    color: #259;
+}
+
+.Profile-lightItem:hover, .Profile-lightItem:hover .Profile-lightItemValue {
+    color: #259;
+}
+
+a.Footer-item:hover {
+    color: #259;
+}
+
+.Profile-footerOperations .Footer {
+    padding-left: 1px;
+    padding-right: 1px;
 }
 }
