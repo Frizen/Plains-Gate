@@ -93,7 +93,7 @@ body, input, textarea, select, button {
 	}
 }
 
-@media (max-width: 960px) {
+@media (max-width: 967px) {
 	.zg-wrap {
 		width: auto!important;
 	}
@@ -101,7 +101,8 @@ body, input, textarea, select, button {
 		margin-left: 48px!important;
 	}
 	.zu-main-sidebar {
-		width: 270px!important;
+		width: 210px!important;
+		margin: 0 0 0 -230px;
 	}
 	.zu-top-search-form {
 		width: 240px!important;
@@ -111,7 +112,7 @@ body, input, textarea, select, button {
 		padding: 0 10px!important;
 	}
 	body, input, textarea, select, button {
-		font-size: 13px!important;
+		font-size: 14px!important;
 	}
 	h1, h2, h3, h4, h5 {
 		font-size: 14px!important;
@@ -245,6 +246,13 @@ address, blockquote, sup {
 	.zu-main-content-inner {
 		position: relative;
 		margin: 0 328px 0 0!important;
+	}
+}
+
+@media (max-width: 967px) {
+	.zu-main-content-inner {
+		position: relative;
+		margin: 0 280px 0 30px!important;
 	}
 }
 
@@ -2065,259 +2073,6 @@ body, input, textarea, select, button {
 }
 }
 
-@-moz-document url-prefix("https://www.zhihu.com/people/frizen/"), url-prefix("http://www.zhihu.com/people/frizen/") {
-.Card {
-	border-radius: 6px;
-}
-
-.ProfileHeader .Card {
-	background: transparent;
-	min-height: 360px;
-	border-radius: 7px;
-}
-
-.ProfileHeader-wrapper {
-	top: 190px;
-	background: transparent;
-}
-
-.UserCoverEditor {
-	height: 0px!important;
-}
-
-.UserCover {
-	position: absolute;
-	height: 360px!important;
-	width: 998.5px;
-	background: none;
-	background-image: url(https://ohupjrb3o.qnssl.com/reina_zh_ban6.jpg);
-	background-position: bottom;
-	opacity: 0.75;
-	border-radius: 6px;
-	transition: height 0s!important;
-}
-
-.UserCover-image, .UserCover-image img {
-	display: none;
-}
-
-.UserAvatar, .UserAvatar-inner {
-	width: 200px!important;
-	height: 200px!important;
-	border: 0px solid #fff;
-}
-
-.ProfileHeader-avatar {
-	top: -95px!important;
-	left: 680px!important;
-	border: 6px solid #fff;
-	border-radius: 10px;
-}
-
-.ProfileHeader-buttons {
-	position: absolute;
-	right: 300px;
-	;
-	bottom: 43px;
-}
-
-button.Button.FollowButton.Button--primary.Button--blue {
-	color: #8590a6;
-	background: transparent;
-	border: 1px solid #8590a6;
-}
-
-.UserCoverEditor-simpleEditButton {
-	visibility: hidden;
-}
-
-.ProfileButtonGroup .Button+.Button {
-	border: 1px solid #8590a6;
-}
-
-.ProfileHeader-content {
-	padding-top: 8px;
-	padding-left: 0px;
-}
-
-.ProfileHeader-name {
-	font-weight: 600;
-	position: absolute;
-	right: 300px;
-	bottom: -24px;
-}
-
-.ProfileHeader-headline {
-	position: absolute;
-	right: 380px;
-	bottom: -24px;
-}
-
-.ProfileHeader-contentBody {
-	float: right;
-	margin-top: 15px;
-	margin-right: -58px;
-}
-
-.ProfileHeader-contentFooter {
-	margin-top: 120px;
-}
-
-svg.Icon.Icon--male {
-	visibility: hidden;
-}
-
-button.Button.ProfileHeader-expandButton.Button--plain {
-	visibility: hidden;
-}
-
-.ProfileHeader-contentHead .FollowStatus {
-	visibility: hidden;
-}
-
-button.Button.FollowButton.Button--primary.Button--grey {
-	background: transparent;
-	color: #8590a6;
-	border: 1px solid #8590a6;
-}
-
-button.Button.FollowButton.Button--primary.Button--grey:hover {
-	color: #fff;
-	background: #ccd8e1;
-	border: 1px solid #ccd8e1;
-}
-
-.UserAvatarEditor-maskInner {
-	border: 0px solid #fff;
-}
-}
-
-@-moz-document url-prefix("https://www.zhihu.com/people/irinwind/"), url-prefix("http://www.zhihu.com/people/irinwind/") {
-.Card {
-	border-radius: 6px;
-}
-
-.ProfileHeader .Card {
-	background: transparent;
-	min-height: 360px;
-	border-radius: 7px;
-}
-
-.ProfileHeader-wrapper {
-	top: 190px;
-	background: transparent;
-}
-
-.UserCoverEditor {
-	height: 0px!important;
-}
-
-.UserCover {
-	position: absolute;
-	height: 360px!important;
-	width: 998.5px;
-	background: none;
-	background-image: url(https://ohupjrb3o.qnssl.com/kumiko_zh_ban6.jpg);
-	background-position: bottom;
-	opacity: 0.75;
-	border-radius: 6px;
-    transition: height 0s!important;
-}
-
-.UserCover-image, .UserCover-image img {
-	display: none;
-}
-
-.UserAvatar, .UserAvatar-inner {
-	width: 200px!important;
-	height: 200px!important;
-}
-
-.ProfileHeader-avatar {
-	top: -95px!important;
-	left: 680px!important;
-	border: 6px solid #fff;
-	border-radius: 10px;
-}
-
-.ProfileHeader-buttons {
-	position: absolute;
-	right: 300px;
-	;
-	bottom: 20px;
-}
-
-button.Button.FollowButton.Button--primary.Button--blue {
-	color: #8590a6;
-	background: transparent;
-	border: 1px solid #8590a6;
-}
-
-.UserCoverEditor-simpleEditButton {
-	visibility: hidden;
-}
-
-.ProfileButtonGroup .Button+.Button {
-	border: 1px solid #8590a6;
-}
-
-.ProfileHeader-content {
-	padding-top: 0px;
-	padding-left: 0px;
-}
-
-.ProfileHeader-name {
-	font-weight: 600;
-	position: absolute;
-	right: 300px;
-	bottom: -24px;
-}
-
-.ProfileHeader-headline {
-	position: absolute;
-	right: 380px;
-	bottom: -24px;
-}
-
-.ProfileHeader-contentBody {
-	float: right;
-	margin-top: 15px;
-	margin-right: 94px;
-}
-
-.ProfileHeader-contentFooter {
-	margin-top: 120px;
-}
-
-svg.Icon.Icon--male {
-	visibility: hidden;
-}
-
-button.Button.ProfileHeader-expandButton.Button--plain {
-	visibility: hidden;
-}
-
-.ProfileHeader-contentHead .FollowStatus {
-	visibility: hidden;
-}
-
-button.Button.FollowButton.Button--primary.Button--grey {
-	background: transparent;
-	color: #8590a6;
-	border: 1px solid #8590a6;
-}
-
-button.Button.FollowButton.Button--primary.Button--grey:hover {
-	color: #fff;
-	background: #ccd8e1;
-	border: 1px solid #ccd8e1;
-}
-
-.UserAvatarEditor-maskInner {
-	border: 0px solid #fff;
-}
-}
-
 @-moz-document url-prefix("https://www.zhihu.com/people/") {
 .Card {
 	border-radius: 6px;
@@ -2343,10 +2098,6 @@ button.Button.FollowButton.Button--primary.Button--grey:hover {
 	border-top-left-radius: 5px;
 }
 
-.UserCoverEditor {
-	height: 160px
-}
-
 .UserCoverGuide-item {
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
@@ -2366,7 +2117,7 @@ button.Button.FollowButton.Button--primary.Button--grey:hover {
 }
 
 .Profile-followStatus {
-    width: 49%;
+	width: 49%;
 }
 
 .ContentItem-content {
@@ -2391,8 +2142,8 @@ button.Button.FollowButton.Button--primary.Button--grey:hover {
 }
 
 .Profile-lightItem, .Profile-lightList {
-    padding-left: 1px;
-    padding-right: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
 }
 
 .ProfileHeader-name {
@@ -2404,36 +2155,36 @@ button.Button.FollowButton.Button--primary.Button--grey:hover {
 }
 
 .ContentItem-content.is-collapsed:hover {
-    color: #444;
+	color: #444;
 }
 
 .Tabs-link {
-    border-bottom: 3px solid transparent;
+	border-bottom: 3px solid transparent;
 }
 
 .Tabs-link:hover {
-    border-bottom: 3px solid #259;
+	border-bottom: 3px solid #259;
 }
 
 .Tabs-link.is-active:after {
-    bottom: -3px;
-    background: #259;
+	bottom: -3px;
+	background: #259;
 }
 
 .Tabs-link:hover {
-    color: #259;
+	color: #259;
 }
 
 .Tabs-link:hover .Tabs-meta {
-    color: #259;
+	color: #259;
 }
 
 .Tabs-link.is-active {
-    font-weight: 600;
+	font-weight: 600;
 }
 
 .ContentItem-cover {
-    display: none;
+	display: none;
 }
 
 a {
@@ -2441,27 +2192,27 @@ a {
 }
 
 .Profile-sideColumnItemLink:hover {
-    color: #259;
+	color: #259;
 }
 
 .Profile-followStatus:hover .Profile-followStatusValue {
-    color: #259;
+	color: #259;
 }
 
 .Profile-followStatusValue:hover {
-    color: #259;
+	color: #259;
 }
 
 .Profile-lightItem:hover, .Profile-lightItem:hover .Profile-lightItemValue {
-    color: #259;
+	color: #259;
 }
 
 a.Footer-item:hover {
-    color: #259;
+	color: #259;
 }
 
 .Profile-footerOperations .Footer {
-    padding-left: 1px;
-    padding-right: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
 }
 }
