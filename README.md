@@ -4,16 +4,16 @@ The title comes from the famous Game/Animation Steins;Gate.
 
 As the description says, this is a flat UI project. I design flat UI for the websites I frequently use. That's it.
 
-The first project is [Zhihu](www.zhihu.com). The UI part of the project is almost done, however the interaction part really got some trouble. The interaction of a website is more complicated. It can't be that easy like just write a CSS and get all the problem's done. So, the left part of the project is pause, but you still can use it for the UI modification. 
+The first project is [Zhihu](http://www.zhihu.com). The UI part of the project is almost done, however the interaction part really got some trouble. The interaction of a website is more complicated. It can't be that easy like just write a CSS and get all the problem's done. So, the left part of the project is pause, but you still can use it for the UI modification. 
 
-The second project is [bilibili](www.bilibili.tv) which is still in preparation.
+The second project is [bilibili](http://www.bilibili.tv) which is still in preparation.
 
 ##### User Guide
 
 1. Please use it on Chrome or Firefox.
 2. Install Stylish for Chrome: [Stylish - Chrome Web Store](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe/)
 3. Firefox user could click this link: [Stylish for Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome/)
-4. Open this page to install CSS: [Flat_Zhihu ](https://userstyles.org/styles/108011/flat-zhihu-v2-1/)
+4. Open this page to install CSS: [Flat_Zhihu](https://userstyles.org/styles/108011/flat-zhihu-v2-1/)
 5. Enjoy!
 
 If you have any problems or advices with this project, comment or send me a message on Zhihu:[【Plains;Gate.】Flat_Zhihu v2.1 - 知乎专栏](https://zhuanlan.zhihu.com/p/24231834)
@@ -25,15 +25,15 @@ If you have any problems or advices with this project, comment or send me a mess
 
 取了一个看起来很厉害的名字，但实际上做的东西很简单，只是将一些 UI 非常不符合我个人审美但又每天都不得不打开看看刷刷的网站，给他们换个皮而已。扁平化的设计会是这个项目的主流，所以如果对扁平化设计不感冒的话，那么可以退散了。
 
-第一个子项目是[知乎](www.zhihu.com) ，目前完成度已经接近 80% 了。UI 方面基本完成，交互上虽然还有很多想要优化的地方，但是绝大多数交互问题已经不是写个 CSS 就能解决得了的，于是暂时搁置。
+第一个子项目是[知乎](http://www.zhihu.com) ，目前完成度已经接近 80% 了。UI 方面基本完成，交互上虽然还有很多想要优化的地方，但是绝大多数交互问题已经不是写个 CSS 就能解决得了的，于是暂时搁置。
 
-第二个子项目暂定是哔哩哔哩，目前处于设（wā）计（kēng）阶段，竣工日期未知。
+第二个子项目暂定是[哔哩哔哩](http://www.bilibili.tv)，目前处于设（wā）计（kēng）阶段，竣工日期未知。
 
 ##### 如何使用
 
 1. 确认自己用的是 Chrome 谷歌浏览器或 Firefox 火狐浏览器
 2. Chrome 用户请下载并安装好 Stylish 这个扩展程序：[Stylish - Chrome Web Store](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe/)
-3. Firefox 用户请到这里安装： [Stylish for Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome/)
-4. 打开这个页面[Flat_Zhihu ](https://userstyles.org/styles/108011/flat-zhihu-v2-1/)，一键安装
+3. Firefox 用户请到这里安装：[Stylish for Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome/)
+4. 打开这个页面[Flat_Zhihu](https://userstyles.org/styles/108011/flat-zhihu-v2-1/)，一键安装
 
 反馈和建议可通过知乎私信 @錦榮 或在专栏下评论：[【Plains;Gate.】Flat_Zhihu v2.1 - 知乎专栏](https://zhuanlan.zhihu.com/p/24231834)
