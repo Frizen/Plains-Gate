@@ -1646,6 +1646,10 @@ i.zm-profile-header-icon.sina {
 	line-height: 1.8em;
 	margin-bottom: 5px;
 }
+
+.zm-votebar.goog-scrollfloater-floating {
+	margin-top: 50px;
+}
 /*===========================================*/
 /*================== 右侧栏 ====================*/
 /*===========================================*/
